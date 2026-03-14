@@ -38,15 +38,13 @@ NAVIGATION
 
 nav{
 
-display:grid;
-
-grid-template-columns:repeat(4,auto);
+display:flex;
+flex-wrap:wrap;
 
 justify-content:center;
-justify-items:center;
+align-items:center;
 
-row-gap:10px;
-column-gap:32px;
+gap:12px 32px;
 
 padding:18px 20px;
 
@@ -179,8 +177,6 @@ padding:30px;
 background:#7a1f2b;
 
 border-radius:18px;
-
-/* prémium fény perem */
 
 box-shadow:
 0 8px 20px rgba(0,0,0,0.15),
@@ -318,17 +314,6 @@ MOBILE
 
 @media(max-width:600px){
 
-nav{
-
-grid-template-columns:repeat(2,auto);
-
-column-gap:22px;
-row-gap:10px;
-
-font-size:0.9rem;
-
-}
-
 .hero{
 
 height:220px;
@@ -359,4 +344,12 @@ padding:24px;
 
 }
 
-  }
+nav{
+
+gap:10px 18px;
+
+font-size:0.9rem;
+
+}
+
+}
