@@ -99,7 +99,7 @@ overflow:hidden;
 
 }
 
-/* OVERLAY – enyhe sötétítés */
+/* enyhe sötétítés a teljes képre */
 
 .hero-overlay{
 
@@ -112,8 +112,8 @@ bottom:0;
 
 background:linear-gradient(
 to bottom,
-rgba(0,0,0,0.08),
-rgba(0,0,0,0.18)
+rgba(0,0,0,0.05),
+rgba(0,0,0,0.15)
 );
 
 display:flex;
@@ -122,7 +122,7 @@ justify-content:center;
 
 }
 
-/* HERO TEXT */
+/* SZÖVEG PANEL (halvány csík mint identity oldalon) */
 
 .hero-text{
 
@@ -130,7 +130,13 @@ text-align:center;
 
 max-width:720px;
 
-padding:20px;
+padding:28px 34px;
+
+background:rgba(0,0,0,0.28);
+
+border-radius:14px;
+
+backdrop-filter:blur(4px);
 
 }
 
@@ -338,6 +344,10 @@ font-size:1.1rem;
 font-size:0.9rem;
 }
 
+.hero-text{
+padding:20px;
+}
+
 main{
 padding:26px 18px;
 }
@@ -351,4 +361,4 @@ gap:10px 16px;
 font-size:0.9rem;
 }
 
-}
+  }
