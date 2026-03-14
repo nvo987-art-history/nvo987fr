@@ -38,13 +38,15 @@ NAVIGATION
 
 nav{
 
-display:flex;
-flex-wrap:wrap;
+display:grid;
+
+grid-template-columns:repeat(4,auto);
 
 justify-content:center;
-align-items:center;
+justify-items:center;
 
-gap:14px 28px;
+row-gap:10px;
+column-gap:32px;
 
 padding:18px 20px;
 
@@ -53,11 +55,7 @@ background:#efe3d6;
 font-size:0.95rem;
 font-weight:600;
 
-text-align:center;
-
 border-bottom:1px solid rgba(0,0,0,0.08);
-
-/* sticky menu */
 
 position:sticky;
 top:0;
@@ -71,7 +69,7 @@ color:#6b1f28;
 
 text-decoration:none;
 
-transition:all .2s ease;
+transition:color .2s ease;
 
 }
 
@@ -101,6 +99,8 @@ justify-content:center;
 text-align:center;
 
 padding:20px;
+
+animation:herozoom 18s ease-in-out infinite alternate;
 
 }
 
@@ -141,6 +141,17 @@ text-shadow:0 1px 4px rgba(0,0,0,0.35);
 }
 
 /* =========================
+HERO ANIMATION
+========================= */
+
+@keyframes herozoom{
+
+from{background-size:100%;}
+to{background-size:110%;}
+
+}
+
+/* =========================
 MAIN
 ========================= */
 
@@ -169,12 +180,14 @@ background:#7a1f2b;
 
 border-radius:18px;
 
+/* prémium fény perem */
+
 box-shadow:
-0 8px 20px rgba(0,0,0,0.15);
+0 8px 20px rgba(0,0,0,0.15),
+0 0 0 1px rgba(255,255,255,0.06),
+inset 0 1px 0 rgba(255,255,255,0.15);
 
-transition:transform .25s ease;
-
-/* decorative line */
+transition:transform .25s ease, box-shadow .25s ease;
 
 border-top:3px solid rgba(255,255,255,0.25);
 
@@ -183,6 +196,11 @@ border-top:3px solid rgba(255,255,255,0.25);
 section:hover{
 
 transform:translateY(-4px);
+
+box-shadow:
+0 14px 30px rgba(0,0,0,0.18),
+0 0 0 1px rgba(255,255,255,0.12),
+inset 0 1px 0 rgba(255,255,255,0.2);
 
 }
 
@@ -206,7 +224,7 @@ margin-bottom:0;
 HEADINGS
 ========================= */
 
-h1, h2, h3{
+h1,h2,h3{
 
 letter-spacing:0.02em;
 
@@ -263,7 +281,6 @@ LINKS
 a{
 
 color:#ffd6d6;
-
 text-decoration:none;
 
 }
@@ -303,7 +320,10 @@ MOBILE
 
 nav{
 
-gap:10px 16px;
+grid-template-columns:repeat(2,auto);
+
+column-gap:22px;
+row-gap:10px;
 
 font-size:0.9rem;
 
@@ -339,4 +359,4 @@ padding:24px;
 
 }
 
-}
+  }
