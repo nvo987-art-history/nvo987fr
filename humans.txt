@@ -1,0 +1,22 @@
+/* TEAM */
+Project: NVO987
+Domain: https://nvo987.fr
+Identity: https://identity.nvo987.us
+Maintainer: NVO987
+Contact: https://nvo987.fr/contact
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Static site
+Hosting: GitHub Pages
+Repository: https://github.com/nvo987
+
+/* TECHNOLOGY */
+Languages: HTML, CSS
+Framework: none
+Metadata: JSON-LD, Schema.org
+Identity: did:web:identity.nvo987.us
+
+/* THANKS */
+Open web standards
+Decentralized identity community
