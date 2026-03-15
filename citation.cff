@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Color as a Generative Principle in the Work of Sonia Delaunay"
+message: "If you use or cite this research, please cite it as follows."
+type: article
+
+authors:
+  - family-names: "Van-Orton"
+    given-names: "Nicholas"
+    email: "nvo@nvo987.us"
+
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/N4K6J"
+
+doi: "10.17605/OSF.IO/N4K6J"
+url: "https://doi.org/10.17605/OSF.IO/N4K6J"
+
+repository-code: "https://nvo987.fr"
+
+publisher:
+  name: "NVO987 – Culture Visuelle Moderne et Contemporaine"
+
+date-released: 2025
+
+abstract: >
+  Research on color as a generative principle in the work of Sonia Delaunay,
+  examining its role in modern visual culture and artistic experimentation.
