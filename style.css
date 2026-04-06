@@ -87,6 +87,12 @@ max-height:520px;
 
 padding:60px 20px;
 
+/* levegő körülötte */
+
+margin:30px 22px 30px 22px;
+
+border-radius:20px;
+
 background-image:url("banner.jpg");
 background-size:cover;
 background-position:center 35%;
@@ -95,8 +101,6 @@ background-repeat:no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
-
-margin-bottom:50px;
 
 }
 
@@ -109,8 +113,6 @@ text-align:center;
 max-width:760px;
 
 padding:30px 38px;
-
-/* tiszta glass */
 
 background:rgba(255,255,255,0.08);
 
@@ -171,7 +173,7 @@ main{
 max-width:920px;
 margin:auto;
 
-padding:36px 22px;
+padding:20px 22px 36px 22px;
 
 flex:1;
 
@@ -183,15 +185,13 @@ CARD SECTIONS
 
 section{
 
-margin-bottom:42px;
+margin-bottom:36px;
 
 padding:28px;
 
 background:#7a1f2b;
 
 border-radius:18px;
-
-/* arany csík */
 
 border-left:5px solid #d4af37;
 
@@ -321,6 +321,8 @@ min-height:260px;
 
 padding:40px 16px;
 
+margin:20px 14px 20px 14px;
+
 background-position:center 30%;
 
 }
@@ -342,7 +344,7 @@ padding:22px;
 }
 
 main{
-padding:26px 18px;
+padding:18px 16px 30px 16px;
 }
 
 section{
