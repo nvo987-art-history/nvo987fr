@@ -52,7 +52,9 @@ padding:16px 18px;
 background:#efe3d6;
 
 font-size:0.95rem;
-font-weight:600;
+font-weight:900;
+
+letter-spacing:0.04em;
 
 border-bottom:1px solid rgba(0,0,0,0.08);
 
@@ -67,6 +69,8 @@ nav a{
 color:#6b1f28;
 text-decoration:none;
 transition:0.25s;
+
+font-weight:900;
 
 }
 
@@ -86,8 +90,6 @@ min-height:40vh;
 max-height:520px;
 
 padding:60px 20px;
-
-/* levegő körülötte */
 
 margin:30px 22px 30px 22px;
 
@@ -356,4 +358,4 @@ gap:10px 16px;
 font-size:0.9rem;
 }
 
-}
+  }
