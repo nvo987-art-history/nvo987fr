@@ -358,4 +358,25 @@ gap:10px 16px;
 font-size:0.9rem;
 }
 
+}
+
+/* =========================
+FOUNDER PROFILE
+========================= */
+
+.founder-box{
+display:flex;
+gap:22px;
+align-items:flex-start;
+flex-wrap:wrap;
+}
+
+.founder-photo{
+width:160px;
+border-radius:12px;
+}
+
+.founder-text{
+flex:1;
+min-width:240px;
   }
