@@ -203,6 +203,8 @@ transition:
 transform 0.3s ease,
 box-shadow 0.3s ease;
 
+overflow:hidden;
+
 }
 
 section:hover{
@@ -388,11 +390,10 @@ SECTION IMAGE
 .section-image{
 
 width:100%;
-max-width:900px;
 
 display:block;
 
-margin:26px auto 30px auto;
+margin:18px 0 22px 0;
 
 border-radius:14px;
 
