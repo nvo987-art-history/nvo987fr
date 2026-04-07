@@ -379,4 +379,23 @@ border-radius:12px;
 .founder-text{
 flex:1;
 min-width:240px;
-  }
+}
+
+/* =========================
+SECTION IMAGE
+========================= */
+
+.section-image{
+
+width:100%;
+max-width:900px;
+
+display:block;
+
+margin:26px auto 30px auto;
+
+border-radius:14px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.35);
+
+}
