@@ -322,11 +322,17 @@ margin-bottom:10px;
 
 .official-logo{
 
-width:120px;
-
 display:block;
 
-margin:15px auto 0 auto;
+margin:12px auto;
+
+max-width:120px;
+max-height:120px;
+
+width:auto;
+height:auto;
+
+object-fit:contain;
 
 border-radius:10px;
 
@@ -460,4 +466,4 @@ gap:10px 16px;
 font-size:0.9rem;
 }
 
-}
+  }
