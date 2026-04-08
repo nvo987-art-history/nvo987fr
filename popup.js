@@ -1,27 +1,31 @@
 window.addEventListener("DOMContentLoaded", function () {
 
   const overlay = document.createElement("div");
-  overlay.style.position = "fixed";
-  overlay.style.inset = "0";
-  overlay.style.background = "rgba(0,0,0,0.5)";
-  overlay.style.display = "flex";
-  overlay.style.alignItems = "center";
-  overlay.style.justifyContent = "center";
-  overlay.style.zIndex = "9999";
-  overlay.style.padding = "15px";
 
-  overlay.style.flex = "none";        // 🔥 FIX
-  overlay.style.alignSelf = "auto";   // 🔥 FIX
+  overlay.style.cssText = `
+    position:fixed !important;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.5);
+    z-index:999999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  `;
 
   const box = document.createElement("div");
-  box.style.background = "white";
-  box.style.padding = "20px";
-  box.style.borderRadius = "10px";
-  box.style.width = "100%";
-  box.style.maxWidth = "400px";
-  box.style.fontFamily = "Arial, sans-serif";
-  box.style.boxShadow = "0 5px 20px rgba(0,0,0,0.3)";
-  box.style.flex = "none";            // 🔥 FIX
+
+  box.style.cssText = `
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    width:90%;
+    max-width:380px;
+    font-family:Arial,sans-serif;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  `;
 
   box.innerHTML = `
     <h3 style="margin:0 0 10px 0;">
@@ -31,21 +35,24 @@ window.addEventListener("DOMContentLoaded", function () {
       Notre association, également active dans le domaine de la culture visuelle contemporaine,
       recherche un pédagogue bénévole pour une collaboration de recherche.
     </p>
-    <div style="text-align:center;">
-      <button id="closePopup" style="
-        margin-top:20px;
-        padding:8px 16px;
-        border:none;
-        background:#333;
-        color:white;
-        cursor:pointer;
-        border-radius:5px;
-      ">Fermer</button>
-    </div>
+    <button id="closePopup" style="
+      margin-top:20px;
+      padding:8px 16px;
+      border:none;
+      background:#333;
+      color:#fff;
+      cursor:pointer;
+      border-radius:5px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    ">Fermer</button>
   `;
 
   overlay.appendChild(box);
-  document.body.appendChild(overlay);
+
+  // 🔥 NEM body-ba tesszük
+  document.documentElement.appendChild(overlay);
 
   document.getElementById("closePopup").onclick = function () {
     overlay.remove();
