@@ -2,16 +2,16 @@ window.addEventListener("DOMContentLoaded", function () {
 
   const overlay = document.createElement("div");
   overlay.style.position = "fixed";
-  overlay.style.top = "0";
-  overlay.style.left = "0";
-  overlay.style.width = "100%";
-  overlay.style.height = "100%";
+  overlay.style.inset = "0";
   overlay.style.background = "rgba(0,0,0,0.5)";
   overlay.style.display = "flex";
   overlay.style.alignItems = "center";
   overlay.style.justifyContent = "center";
   overlay.style.zIndex = "9999";
   overlay.style.padding = "15px";
+
+  overlay.style.flex = "none";        // 🔥 FIX
+  overlay.style.alignSelf = "auto";   // 🔥 FIX
 
   const box = document.createElement("div");
   box.style.background = "white";
@@ -21,8 +21,7 @@ window.addEventListener("DOMContentLoaded", function () {
   box.style.maxWidth = "400px";
   box.style.fontFamily = "Arial, sans-serif";
   box.style.boxShadow = "0 5px 20px rgba(0,0,0,0.3)";
-  box.style.display = "block";              // 🔥 fontos
-  box.style.height = "auto";                // 🔥 fontos
+  box.style.flex = "none";            // 🔥 FIX
 
   box.innerHTML = `
     <h3 style="margin:0 0 10px 0;">
