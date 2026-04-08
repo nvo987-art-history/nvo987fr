@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function loadAnalytics() {
     const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=GA_ID";
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-8WXTNXNCVG";
     script.async = true;
     document.head.appendChild(script);
 
@@ -82,7 +82,7 @@ window.addEventListener("DOMContentLoaded", function () {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'GA_ID');
+      gtag('config', 'G-8WXTNXNCVG'); // ✅ javítva
     };
   }
 
