@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function () {
     box-shadow:0 10px 30px rgba(0,0,0,0.4);
     border:1px solid rgba(255,255,255,0.25);
     color:#ffffff;
-    text-align:left;
+    text-align:center; /* 🔥 középre minden */
   `;
 
   box.innerHTML = `
@@ -38,6 +38,7 @@ window.addEventListener("DOMContentLoaded", function () {
       font-size:1.25rem;
       font-weight:600;
       line-height:1.3;
+      text-align:center;
     ">
       Nous recherchons un pédagogue bénévole
     </h3>
@@ -47,6 +48,7 @@ window.addEventListener("DOMContentLoaded", function () {
       font-size:0.95rem;
       line-height:1.6;
       color:rgba(255,255,255,0.9);
+      text-align:center;
     ">
       Notre association, également active dans le domaine de la culture visuelle contemporaine,
       recherche un pédagogue bénévole pour une collaboration de recherche.
