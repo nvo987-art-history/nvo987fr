@@ -1,37 +1,34 @@
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
 
   const overlay = document.createElement("div");
-  overlay.style = `
-    position:fixed;
-    top:0;left:0;
-    width:100%;height:100%;
-    background:rgba(0,0,0,0.5);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    z-index:9999;
-    padding:15px;
-  `;
+  overlay.style.position = "fixed";
+  overlay.style.top = "0";
+  overlay.style.left = "0";
+  overlay.style.width = "100%";
+  overlay.style.height = "100%";
+  overlay.style.background = "rgba(0,0,0,0.5)";
+  overlay.style.display = "flex";
+  overlay.style.alignItems = "center";
+  overlay.style.justifyContent = "center";
+  overlay.style.zIndex = "9999";
+  overlay.style.padding = "15px";
 
   const box = document.createElement("div");
-  box.style = `
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    max-width:400px;
-    width:100%;
-    max-height:80vh;
-    overflow:auto;
-    text-align:left;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  `;
+  box.style.background = "white";
+  box.style.padding = "20px";
+  box.style.borderRadius = "10px";
+  box.style.width = "100%";
+  box.style.maxWidth = "400px";
+  box.style.fontFamily = "Arial, sans-serif";
+  box.style.boxShadow = "0 5px 20px rgba(0,0,0,0.3)";
+  box.style.display = "block";              // 🔥 fontos
+  box.style.height = "auto";                // 🔥 fontos
 
   box.innerHTML = `
-    <h3 style="margin-top:0; margin-bottom:10px;">
+    <h3 style="margin:0 0 10px 0;">
       Nous recherchons un pédagogue bénévole
     </h3>
-    <p style="line-height:1.5; margin:0;">
+    <p style="margin:0; line-height:1.5;">
       Notre association, également active dans le domaine de la culture visuelle contemporaine,
       recherche un pédagogue bénévole pour une collaboration de recherche.
     </p>
@@ -51,7 +48,7 @@ window.addEventListener("load", function () {
   overlay.appendChild(box);
   document.body.appendChild(overlay);
 
-  document.getElementById("closePopup").onclick = () => {
+  document.getElementById("closePopup").onclick = function () {
     overlay.remove();
   };
 
