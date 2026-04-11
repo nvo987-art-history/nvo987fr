@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.gtagLoaded = true;
 
     const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-Y46Z31JMRG";
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-8WXTNXNCVG";
     script.async = true;
     document.head.appendChild(script);
 
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.gtag = gtag;
 
     gtag('js', new Date());
-    gtag('config', 'G-Y46Z31JMRG');
+    gtag('config', 'G-8WXTNXNCVG');
   }
 
   function showDetailsPopup() {
