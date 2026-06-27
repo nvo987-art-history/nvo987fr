@@ -1,0 +1,7 @@
+{
+  "did": "did:web:identity.nvo987.us",
+  "domain": "nvo987.fr",
+  "role": "cultural-association",
+  "controller": "https://identity.nvo987.us",
+  "description": "Official domain of the NVO987 cultural association supporting the research infrastructure."
+}

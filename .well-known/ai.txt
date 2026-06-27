@@ -1,0 +1,14 @@
+# AI crawler policy for nvo987.fr
+
+User-agent: *
+Allow: /
+
+# Canonical AI policy location
+Policy: https://identity.nvo987.us/.well-known/ai.json
+
+# Identity reference
+Identity: https://identity.nvo987.us
+DID: did:web:identity.nvo987.us
+
+# Contact
+Contact: mailto:nvo@nvo987.us

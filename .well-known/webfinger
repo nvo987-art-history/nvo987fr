@@ -1,0 +1,19 @@
+{
+  "subject": "did:web:identity.nvo987.us",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/did+json",
+      "href": "https://identity.nvo987.us/.well-known/did.json"
+    },
+    {
+      "rel": "profile",
+      "type": "text/html",
+      "href": "https://identity.nvo987.us/profile"
+    },
+    {
+      "rel": "canonical",
+      "href": "https://identity.nvo987.us"
+    }
+  ]
+}
