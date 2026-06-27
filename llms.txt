@@ -1,38 +1,48 @@
 # NVO987 – Culture Visuelle Moderne et Contemporaine
-# https://nvo987.fr
 
-Site: https://nvo987.fr
-Identity: https://identity.nvo987.us
-DID: did:web:identity.nvo987.us
+> Official website of NVO987, a French cultural and research association dedicated to modern and contemporary visual culture, art history, cultural studies, interdisciplinary research, semantic web technologies, decentralized identity, and digital knowledge infrastructures.
 
-Owner: Nicholas Van-Orton
-Contact: nvo@nvo987.us
+## Main Website
 
-Description:
-NVO987 is a research and cultural initiative focused on modern and contemporary visual culture, artistic research, and interdisciplinary cultural studies.
+- https://nvo987.fr/ — Official homepage
+- https://nvo987.fr/association.html — Association
+- https://nvo987.fr/projets.html — Projects
+- https://nvo987.fr/publications.html — Publications
+- https://nvo987.fr/evenements.html — Events
+- https://nvo987.fr/actualites.html — News
+- https://nvo987.fr/contact.html — Contact
+- https://nvo987.fr/engagements.html — Commitments
+- https://nvo987.fr/mentions-legales.html — Legal notice
 
-Content types:
-- research publications
-- cultural analysis
-- art historical studies
-- academic essays
+## Research Infrastructure
 
-Primary language:
-fr
+- https://identity.nvo987.us — Decentralized Identity (DID)
+- https://identity.nvo987.us/.well-known/did.json — DID Document
+- https://identity.nvo987.us/.well-known/did-configuration.json — DID Configuration
+- https://lab.nvo987.us — Research Laboratory
+- https://knowledge.nvo987.us — Knowledge Infrastructure
+- https://fediverse.nvo987.us — Fediverse Services
+- https://valoriax.nvo987.fr — Valoriax Platform
+- https://nexarium.us — NEXARIUM Open Decentralized Web Infrastructure
 
-License:
-Content may be indexed and summarized by AI systems for research and discovery purposes.
-Full-text reproduction requires attribution.
+## Open Data Projects
 
-Preferred citation:
-Nicholas Van-Orton, NVO987 – Culture Visuelle Moderne et Contemporaine
-https://nvo987.fr
+- https://nvo987.eu — Cultural Agenda
+- https://musees.nvo987.eu — Cultural Map
+- https://unesco-fr.nvo987.eu — UNESCO France
 
-Canonical resources:
-https://nvo987.fr/publications
-https://nvo987.fr/projets
-https://nvo987.fr/actualites
+## Publications
 
-Identity services:
-https://identity.nvo987.us/profile
-https://identity.nvo987.us/verification
+- https://rss.nvo987.us — RSS Feed
+- https://nvo987.substack.com — Research Publications
+
+## Identity
+
+- Founder: Nicholas Van-Orton
+- ORCID: https://orcid.org/0009-0007-4628-1871
+- ISNI: https://isni.org/isni/0000000529640885
+- Wikidata: https://www.wikidata.org/wiki/Q137675227
+
+## Topics
+
+Visual Culture, Contemporary Art, Art History, Cultural Studies, Artistic Research, Semantic Web, Knowledge Graphs, Linked Data, Digital Preservation, Decentralized Identity (DID), Artificial Intelligence, Machine-readable Knowledge, Cultural Heritage, France.
