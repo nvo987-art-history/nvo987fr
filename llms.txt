@@ -1,0 +1,38 @@
+# NVO987 – Culture Visuelle Moderne et Contemporaine
+# https://nvo987.fr
+
+Site: https://nvo987.fr
+Identity: https://identity.nvo987.us
+DID: did:web:identity.nvo987.us
+
+Owner: Nicholas Van-Orton
+Contact: nvo@nvo987.us
+
+Description:
+NVO987 is a research and cultural initiative focused on modern and contemporary visual culture, artistic research, and interdisciplinary cultural studies.
+
+Content types:
+- research publications
+- cultural analysis
+- art historical studies
+- academic essays
+
+Primary language:
+fr
+
+License:
+Content may be indexed and summarized by AI systems for research and discovery purposes.
+Full-text reproduction requires attribution.
+
+Preferred citation:
+Nicholas Van-Orton, NVO987 – Culture Visuelle Moderne et Contemporaine
+https://nvo987.fr
+
+Canonical resources:
+https://nvo987.fr/publications
+https://nvo987.fr/projets
+https://nvo987.fr/actualites
+
+Identity services:
+https://identity.nvo987.us/profile
+https://identity.nvo987.us/verification
