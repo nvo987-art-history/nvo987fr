@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.nvo987.fr/#association",
+      "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+      "url": "https://www.nvo987.fr",
+      "description": "French cultural and research association connected to the NEXARIUM ecosystem.",
+      "memberOf": {
+        "@id": "https://www.nexarium.us/#ecosystem"
+      },
+      "sameAs": [
+        "https://www.nexarium.us",
+        "https://www.nvo987.us",
+        "https://identity.nvo987.us",
+        "https://valoriax.nvo987.fr"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.nexarium.us/#ecosystem",
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "description": "Open decentralized web infrastructure ecosystem."
+    },
+    {
+      "@type": "Person",
+      "name": "Nicholas Van-Orton",
+      "alternateName": "NVO987",
+      "affiliation": {
+        "@id": "https://www.nvo987.fr/#association"
+      }
+    }
+  ]
+}

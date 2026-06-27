@@ -1,0 +1,29 @@
+{
+  "semantic_links": [
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://www.nexarium.us",
+      "relation": "member-of-ecosystem"
+    },
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://valoriax.nvo987.fr",
+      "relation": "transparency-layer"
+    },
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://identity.nvo987.us",
+      "relation": "identity-layer"
+    },
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://fediverse.nvo987.us",
+      "relation": "federated-communication"
+    },
+    {
+      "source": "https://www.nvo987.fr",
+      "target": "https://www.nvo987.us",
+      "relation": "publication-node"
+    }
+  ]
+}

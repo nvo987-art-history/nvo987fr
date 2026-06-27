@@ -1,0 +1,28 @@
+{
+  "trust_network": {
+    "name": "NVO987 Trust Network",
+    "organization": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+    "verification_methods": [
+      "SHA-256",
+      "OpenTimestamps",
+      "Bitcoin Anchoring"
+    ],
+    "connected_entities": [
+      {
+        "entity": "NEXARIUM",
+        "domain": "https://www.nexarium.us"
+      },
+      {
+        "entity": "VALORIAX",
+        "domain": "https://valoriax.nvo987.fr"
+      },
+      {
+        "entity": "Identity Infrastructure",
+        "domain": "https://identity.nvo987.us"
+      }
+    ],
+    "integrity": "cryptographically-verifiable",
+    "transparency": "publicly-accessible",
+    "federation": "enabled"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ecosystem": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+  "federation": "active",
+  "version": "1.0",
+  "primary_domain": "https://www.nvo987.fr",
+  "institution_type": "Cultural and Research Association",
+  "connected_ecosystem": {
+    "name": "NEXARIUM",
+    "domain": "https://www.nexarium.us",
+    "relationship": "parent-ecosystem"
+  },
+  "connected_domains": [
+    {
+      "domain": "https://www.nexarium.us",
+      "role": "Decentralized Infrastructure Ecosystem",
+      "relationship": "ecosystem-parent"
+    },
+    {
+      "domain": "https://www.nvo987.us",
+      "role": "Publication Infrastructure",
+      "relationship": "semantic-node"
+    },
+    {
+      "domain": "https://identity.nvo987.us",
+      "role": "Identity Infrastructure",
+      "relationship": "identity-layer"
+    },
+    {
+      "domain": "https://valoriax.nvo987.fr",
+      "role": "Transparency Infrastructure",
+      "relationship": "transparency-layer"
+    }
+  ]
+}

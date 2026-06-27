@@ -1,0 +1,34 @@
+{
+  "domains": [
+    {
+      "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+      "url": "https://www.nvo987.fr",
+      "type": "Cultural and Research Association"
+    },
+    {
+      "name": "NEXARIUM",
+      "url": "https://www.nexarium.us",
+      "type": "Open Decentralized Infrastructure"
+    },
+    {
+      "name": "NVO987 US",
+      "url": "https://www.nvo987.us",
+      "type": "Publication Infrastructure"
+    },
+    {
+      "name": "Identity Infrastructure",
+      "url": "https://identity.nvo987.us",
+      "type": "Decentralized Identity Layer"
+    },
+    {
+      "name": "VALORIAX",
+      "url": "https://valoriax.nvo987.fr",
+      "type": "Institutional Transparency Infrastructure"
+    },
+    {
+      "name": "Fediverse Infrastructure",
+      "url": "https://fediverse.nvo987.us",
+      "type": "Federated Communication Infrastructure"
+    }
+  ]
+}
