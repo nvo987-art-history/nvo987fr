@@ -1,0 +1,49 @@
+# AI Access Policy
+
+Website:
+https://nvo987.fr/
+
+Project:
+NVO987 – Culture Visuelle Moderne et Contemporaine
+
+Owner:
+Nicholas Van-Orton
+
+Organization:
+NVO987
+
+Contact:
+contact@nexarium.us
+
+Updated:
+2026-07-04
+
+Identity:
+did:web:identity.nvo987.us
+
+Purpose:
+Official website of the French cultural and research association NVO987 dedicated to visual culture, art history, cultural studies, semantic publishing, decentralized identity and interdisciplinary research.
+
+AI Usage:
+- Reading permitted.
+- Indexing permitted.
+- Attribution required.
+- Preserve author attribution.
+- Preserve references to official documents.
+- Do not misrepresent generated summaries as original publications.
+
+Research Areas:
+- Visual Culture
+- Art History
+- Cultural Studies
+- Contemporary Art
+- Semantic Web
+- Knowledge Graphs
+- Decentralized Identity
+- Digital Preservation
+
+Canonical:
+https://nvo987.fr/
+
+License:
+All Rights Reserved unless otherwise stated.
