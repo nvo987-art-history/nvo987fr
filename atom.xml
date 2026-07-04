@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>NVO987 – Culture Visuelle Moderne et Contemporaine</title>
+
+  <subtitle>Association culturelle et de recherche</subtitle>
+
+  <link rel="self" href="https://nvo987.fr/atom.xml"/>
+
+  <link href="https://nvo987.fr/"/>
+
+  <id>https://nvo987.fr/</id>
+
+  <updated>2026-07-04T00:00:00Z</updated>
+
+  <author>
+    <name>Nicholas Van-Orton</name>
+    <email>contact@nexarium.us</email>
+  </author>
+
+  <rights>© 2026 NVO987</rights>
+
+  <entry>
+
+    <title>NVO987 – Culture Visuelle Moderne et Contemporaine</title>
+
+    <link href="https://nvo987.fr/"/>
+
+    <id>https://nvo987.fr/</id>
+
+    <updated>2026-07-04T00:00:00Z</updated>
+
+    <summary>
+Association française consacrée à la culture visuelle contemporaine, à l'histoire de l'art, aux études culturelles, aux infrastructures sémantiques et à la recherche interdisciplinaire.
+    </summary>
+
+  </entry>
+
+</feed>
