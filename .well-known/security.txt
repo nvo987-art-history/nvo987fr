@@ -1,4 +1,4 @@
-Contact: mailto:nvo@nvo987.us
-Canonical: https://identity.nvo987.us/.well-known/security.txt
+Contact: mailto:contact@nvo987.fr
+Canonical: https://nvo987.fr/.well-known/security.txt
 Preferred-Languages: en, fr
-Expires: 2026-12-31T23:59:59Z
+Expires: 2027-09-11T23:59:59Z
