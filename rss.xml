@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+
+    <title>NVO987 – Culture Visuelle Moderne et Contemporaine</title>
+    <link>https://nvo987.fr/</link>
+    <description>
+      NVO987 – Association culturelle et de recherche consacrée à la culture visuelle moderne et contemporaine.
+    </description>
+    <language>fr-fr</language>
+    <atom:link
+      href="https://nvo987.fr/rss.xml"
+      rel="self"
+      type="application/rss+xml"
+      xmlns:atom="http://www.w3.org/2005/Atom"
+    />
+
+    <item>
+      <title>NVO987</title>
+      <link>https://nvo987.fr/</link>
+      <guid isPermaLink="true">https://nvo987.fr/</guid>
+      <description>
+        NVO987 – Culture Visuelle Moderne et Contemporaine.
+      </description>
+    </item>
+
+  </channel>
+</rss> 
