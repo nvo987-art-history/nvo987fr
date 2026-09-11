@@ -3,7 +3,6 @@
   "@id": "https://nvo987.fr/#organization",
   "@type": "Organization",
   "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
-  "alternateName": "NVO987",
   "url": "https://nvo987.fr",
   "logo": "https://nvo987.fr/images/logo.jpg",
   "identifier": {
