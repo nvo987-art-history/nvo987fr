@@ -4,11 +4,11 @@ User-agent: *
 Allow: /
 
 # Canonical AI policy location
-Policy: https://identity.nvo987.us/.well-known/ai.json
+Policy: https://nvo987.fr/.well-known/ai.json
 
 # Identity reference
-Identity: https://identity.nvo987.us
-DID: did:web:identity.nvo987.us
+Identity: https://nvo987.fr
+DID: did:web:nvo987.fr
 
 # Contact
-Contact: mailto:nvo@nvo987.us
+Contact: mailto:contact@nvo987.fr 
