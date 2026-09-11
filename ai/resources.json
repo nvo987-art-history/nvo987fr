@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://nvo987.fr/ai/resources.json",
+  "@type": "DataCatalog",
+  "name": "NVO987 Machine-Readable Resources",
+  "description": "Machine-readable resources and semantic endpoints published by NVO987.",
+  "url": "https://nvo987.fr/ai/resources.json",
+  "creator": {
+    "@id": "https://nvo987.fr/#organization"
+  },
+  "dataset": [
+    {
+      "@type": "DataFeed",
+      "name": "NVO987 Schema.org JSON-LD",
+      "contentUrl": "https://nvo987.fr/.well-known/schema.jsonld",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@type": "DataFeed",
+      "name": "NVO987 FOAF",
+      "contentUrl": "https://nvo987.fr/foaf.xml",
+      "encodingFormat": "application/rdf+xml"
+    },
+    {
+      "@type": "DataFeed",
+      "name": "NVO987 RSS Feed",
+      "contentUrl": "https://nvo987.fr/rss.xml",
+      "encodingFormat": "application/rss+xml"
+    },
+    {
+      "@type": "DataFeed",
+      "name": "NVO987 Atom Feed",
+      "contentUrl": "https://nvo987.fr/atom.xml",
+      "encodingFormat": "application/atom+xml"
+    },
+    {
+      "@type": "DataFeed",
+      "name": "NVO987 Sitemap",
+      "contentUrl": "https://nvo987.fr/sitemap.xml",
+      "encodingFormat": "application/xml"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "NVO987 DID Document",
+      "contentUrl": "https://identity.nvo987.us/.well-known/did.json",
+      "encodingFormat": "application/did+json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "NVO987 DID Configuration",
+      "contentUrl": "https://identity.nvo987.us/.well-known/did-configuration.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "NVO987 AI Policy",
+      "contentUrl": "https://nvo987.fr/.well-known/ai.txt",
+      "encodingFormat": "text/plain"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "NVO987 LLM Information",
+      "contentUrl": "https://nvo987.fr/llms.txt",
+      "encodingFormat": "text/plain"
+    }
+  ]
+}
