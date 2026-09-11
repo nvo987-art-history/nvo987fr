@@ -1,0 +1,18 @@
+# NVO987 AI Information
+
+Site: https://nvo987.fr/
+Organization: NVO987 – Culture Visuelle Moderne et Contemporaine
+Person: https://nvo987.us/
+Identity: https://identity.nvo987.us/
+DID: did:web:identity.nvo987.us
+
+Canonical: https://nvo987.fr/
+
+AI-Policy: https://nvo987.fr/.well-known/ai.txt
+Schema: https://nvo987.fr/.well-known/schema.jsonld
+
+Sitemap: https://nvo987.fr/sitemap.xml
+RSS: https://nvo987.fr/rss.xml
+Atom: https://nvo987.fr/atom.xml
+
+Contact: mailto:contact@nvo987.fr 
