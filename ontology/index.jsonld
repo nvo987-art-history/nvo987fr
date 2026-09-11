@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "nvo987": "https://nvo987.fr/ontology/"
+  },
+  "@id": "https://nvo987.fr/ontology/",
+  "@type": "owl:Ontology",
+  "rdfs:label": "NVO987 Ontology",
+  "rdfs:comment": "Ontology describing the organizational, cultural, research and identity concepts used by NVO987 – Culture Visuelle Moderne et Contemporaine.",
+  "owl:versionIRI": "https://nvo987.fr/ontology/",
+  "owl:imports": [
+    "https://schema.org/"
+  ],
+  "rdfs:seeAlso": [
+    "https://nvo987.fr/ontology/nvo987.jsonld",
+    "https://nvo987.fr/vocab/",
+    "https://nvo987.fr/graph/"
+  ]
+}
