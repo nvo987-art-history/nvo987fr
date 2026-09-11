@@ -1,19 +1,20 @@
 {
-  "subject": "did:web:identity.nvo987.us",
+  "subject": "https://nvo987.fr",
   "links": [
     {
       "rel": "self",
+      "type": "text/html",
+      "href": "https://nvo987.fr"
+    },
+    {
+      "rel": "related",
       "type": "application/did+json",
       "href": "https://identity.nvo987.us/.well-known/did.json"
     },
     {
-      "rel": "profile",
-      "type": "text/html",
-      "href": "https://identity.nvo987.us/profile"
-    },
-    {
-      "rel": "canonical",
-      "href": "https://identity.nvo987.us"
+      "rel": "describedby",
+      "type": "application/ld+json",
+      "href": "https://nvo987.fr/.well-known/schema.jsonld"
     }
   ]
 }
