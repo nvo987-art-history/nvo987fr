@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "schema": "https://schema.org/",
+    "nvo987": "https://nvo987.fr/vocab/"
+  },
+  "@id": "https://nvo987.fr/vocab/",
+  "@type": "owl:Ontology",
+  "rdfs:label": "NVO987 Vocabulary",
+  "rdfs:comment": "Controlled vocabulary for NVO987 – Culture Visuelle Moderne et Contemporaine.",
+  "owl:versionIRI": "https://nvo987.fr/vocab/",
+  "rdfs:seeAlso": [
+    "https://nvo987.fr/vocab/nvo987-vocab.jsonld",
+    "https://nvo987.fr/ontology/",
+    "https://nvo987.fr/graph/"
+  ]
+}
