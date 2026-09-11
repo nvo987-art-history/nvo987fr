@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://nvo987.fr/graph/",
+  "@type": "CollectionPage",
+  "name": "NVO987 Knowledge Graph",
+  "description": "Machine-readable knowledge graph resources describing NVO987 – Culture Visuelle Moderne et Contemporaine.",
+  "url": "https://nvo987.fr/graph/",
+  "about": {
+    "@id": "https://nvo987.fr/#organization"
+  },
+  "publisher": {
+    "@id": "https://nvo987.fr/#organization"
+  },
+  "hasPart": [
+    {
+      "@id": "https://nvo987.fr/graph/organization.jsonld"
+    }
+  ]
+}
