@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "schema": "https://schema.org/",
+    "nvo987": "https://nvo987.fr/vocab/"
+  },
+  "@graph": [
+    {
+      "@id": "https://nvo987.fr/vocab/",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": "NVO987 Vocabulary",
+      "skos:definition": "Controlled vocabulary describing the principal cultural, research, educational and organizational concepts associated with NVO987."
+    },
+    {
+      "@id": "nvo987:VisualCulture",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Visual Culture",
+      "skos:definition": "The study and interpretation of visual forms, practices, images and cultural phenomena."
+    },
+    {
+      "@id": "nvo987:ModernVisualCulture",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Modern Visual Culture",
+      "skos:broader": {
+        "@id": "nvo987:VisualCulture"
+      }
+    },
+    {
+      "@id": "nvo987:ContemporaryVisualCulture",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Contemporary Visual Culture",
+      "skos:broader": {
+        "@id": "nvo987:VisualCulture"
+      }
+    },
+    {
+      "@id": "nvo987:ArtHistory",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Art History",
+      "skos:definition": "The scholarly study of artworks, artists, artistic movements, visual practices and their historical contexts."
+    },
+    {
+      "@id": "nvo987:VisualStudies",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Visual Studies",
+      "skos:definition": "An interdisciplinary field concerned with visuality, images, representation and visual culture."
+    },
+    {
+      "@id": "nvo987:Research",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Research",
+      "skos:definition": "Scholarly and analytical research activities associated with NVO987."
+    },
+    {
+      "@id": "nvo987:Education",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Education",
+      "skos:definition": "Educational and knowledge-sharing activities associated with NVO987."
+    },
+    {
+      "@id": "nvo987:CulturalEngagement",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Cultural Engagement",
+      "skos:definition": "Cultural, public and educational engagement activities associated with NVO987."
+    },
+    {
+      "@id": "nvo987:ModernContemporaryArt",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Modern and Contemporary Art",
+      "skos:definition": "Artistic practices and histories relating to modern and contemporary art."
+    }
+  ]
+}
