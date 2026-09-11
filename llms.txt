@@ -1,0 +1,46 @@
+# NVO987
+
+> NVO987 – Culture Visuelle Moderne et Contemporaine
+
+## About
+
+NVO987 is a French cultural and research organization dedicated to modern
+and contemporary visual culture, art history, visual studies, education,
+research and cultural engagement.
+
+## Organization
+
+- Website: https://nvo987.fr/
+- Person: https://nvo987.us/
+- Identity: https://identity.nvo987.us/
+- DID: did:web:identity.nvo987.us
+- Contact: https://nvo987.fr/contact.html
+
+## Main Pages
+
+- https://nvo987.fr/
+- https://nvo987.fr/contact.html
+- https://nvo987.fr/engagements.html
+- https://nvo987.fr/evenements.html
+- https://nvo987.fr/mentions-legales.html
+
+## Structured Data
+
+- Schema.org JSON-LD: https://nvo987.fr/.well-known/schema.jsonld
+- FOAF RDF/XML: https://nvo987.fr/foaf.xml
+
+## Feeds
+
+- RSS: https://nvo987.fr/rss.xml
+- Atom: https://nvo987.fr/atom.xml
+- Sitemap: https://nvo987.fr/sitemap.xml
+
+## Identity
+
+The organization's web identity infrastructure is hosted separately at:
+
+https://identity.nvo987.us/
+
+DID:
+
+did:web:identity.nvo987.us
