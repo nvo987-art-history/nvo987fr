@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <foaf:Organization rdf:about="https://nvo987.fr/#organization">
+
+    <foaf:name>
+      NVO987 – Culture Visuelle Moderne et Contemporaine
+    </foaf:name>
+
+    <foaf:homepage rdf:resource="https://nvo987.fr/"/>
+
+    <foaf:logo rdf:resource="https://nvo987.fr/image/logo.jpg"/>
+
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage
+          rdf:resource="https://identity.nvo987.us/"/>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <foaf:maker rdf:resource="https://nvo987.us/"/>
+
+    <dcterms:identifier>
+      did:web:identity.nvo987.us
+    </dcterms:identifier>
+
+  </foaf:Organization>
+
+</rdf:RDF> 
