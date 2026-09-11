@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "nvo987": "https://nvo987.fr/ontology/"
+  },
+  "@graph": [
+    {
+      "@id": "https://nvo987.fr/ontology/",
+      "@type": "owl:Ontology",
+      "rdfs:label": "NVO987 Ontology",
+      "rdfs:comment": "A domain ontology for NVO987 – Culture Visuelle Moderne et Contemporaine.",
+      "owl:versionIRI": "https://nvo987.fr/ontology/"
+    },
+    {
+      "@id": "nvo987:NVO987Organization",
+      "@type": "owl:Class",
+      "rdfs:label": "NVO987 Organization",
+      "rdfs:comment": "The cultural and research organization represented by NVO987 – Culture Visuelle Moderne et Contemporaine.",
+      "rdfs:subClassOf": {
+        "@id": "schema:Organization"
+      }
+    },
+    {
+      "@id": "nvo987:VisualCultureResearchOrganization",
+      "@type": "owl:Class",
+      "rdfs:label": "Visual Culture Research Organization",
+      "rdfs:comment": "An organization dedicated to research, education and cultural activities concerning modern and contemporary visual culture.",
+      "rdfs:subClassOf": {
+        "@id": "schema:Organization"
+      }
+    },
+    {
+      "@id": "nvo987:VisualCultureResearchActivity",
+      "@type": "owl:Class",
+      "rdfs:label": "Visual Culture Research Activity",
+      "rdfs:comment": "A research or scholarly activity concerning visual culture, art history or visual studies.",
+      "rdfs:subClassOf": {
+        "@id": "schema:ResearchProject"
+      }
+    },
+    {
+      "@id": "nvo987:CulturalEngagement",
+      "@type": "owl:Class",
+      "rdfs:label": "Cultural Engagement",
+      "rdfs:comment": "A cultural, educational or public engagement activity associated with NVO987."
+    },
+    {
+      "@id": "nvo987:VisualCulture",
+      "@type": "owl:Class",
+      "rdfs:label": "Visual Culture",
+      "rdfs:comment": "The field of cultural and scholarly activity concerning visual culture, including modern and contemporary visual culture."
+    },
+    {
+      "@id": "nvo987:modernContemporaryVisualCulture",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "modern and contemporary visual culture",
+      "rdfs:domain": {
+        "@id": "nvo987:NVO987Organization"
+      },
+      "rdfs:range": {
+        "@id": "nvo987:VisualCulture"
+      }
+    },
+    {
+      "@id": "nvo987:hasResearchActivity",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has research activity",
+      "rdfs:domain": {
+        "@id": "schema:Organization"
+      },
+      "rdfs:range": {
+        "@id": "nvo987:VisualCultureResearchActivity"
+      }
+    },
+    {
+      "@id": "nvo987:hasCulturalEngagement",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has cultural engagement",
+      "rdfs:domain": {
+        "@id": "schema:Organization"
+      },
+      "rdfs:range": {
+        "@id": "nvo987:CulturalEngagement"
+      }
+    },
+    {
+      "@id": "nvo987:didIdentifier",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "DID identifier",
+      "rdfs:domain": {
+        "@id": "schema:Organization"
+      },
+      "rdfs:range": {
+        "@id": "schema:Text"
+      }
+    }
+  ]
+}
