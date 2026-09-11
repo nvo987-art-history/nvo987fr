@@ -1,22 +1,22 @@
 /* TEAM */
-Project: NVO987
-Domain: https://nvo987.fr
-Identity: https://identity.nvo987.us
+Organization: NVO987 – Culture Visuelle Moderne et Contemporaine
 Maintainer: NVO987
-Contact: https://nvo987.fr/contact
+Contact: mailto:contact@nvo987.fr
 
 /* SITE */
+Domain: https://nvo987.fr
 Standards: HTML5, CSS3
 Components: Static site
 Hosting: GitHub Pages
-Repository: https://github.com/nvo987
+Repository: https://github.com/nvo987-art-history/nvo987fr
 
 /* TECHNOLOGY */
-Languages: HTML, CSS
+Languages: HTML, CSS, JavaScript
 Framework: none
 Metadata: JSON-LD, Schema.org
 Identity: did:web:identity.nvo987.us
 
 /* THANKS */
 Open web standards
-Decentralized identity community
+Schema.org
+W3C Decentralized Identifiers community 
