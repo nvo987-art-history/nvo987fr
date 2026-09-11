@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://nvo987.fr/ecosystem/",
+  "@type": "CollectionPage",
+  "name": "NVO987 Ecosystem",
+  "description": "The digital, cultural, research and semantic ecosystem associated with NVO987 – Culture Visuelle Moderne et Contemporaine.",
+  "url": "https://nvo987.fr/ecosystem/",
+  "about": {
+    "@id": "https://nvo987.fr/#organization"
+  },
+  "publisher": {
+    "@id": "https://nvo987.fr/#organization"
+  },
+  "isPartOf": {
+    "@id": "https://nvo987.fr/"
+  },
+  "relatedLink": [
+    "https://nvo987.fr/agents/",
+    "https://nvo987.fr/ai/",
+    "https://nvo987.fr/graph/",
+    "https://nvo987.fr/ontology/",
+    "https://nvo987.fr/vocab/",
+    "https://identity.nvo987.us/"
+  ]
+}
