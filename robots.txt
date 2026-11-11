@@ -32,9 +32,6 @@ Allow: /
 User-agent: Anthropic-AI
 Allow: /
 
-User-agent: Diffbot
-Allow: /
-
 User-agent: Omgili
 Allow: /
 
