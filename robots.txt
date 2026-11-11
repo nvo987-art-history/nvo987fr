@@ -41,6 +41,75 @@ Allow: /
 User-agent: Omgilibot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bravebot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: TikTokSpider
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Imagesift
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: CommonCrawl
+Allow: /
+
 Crawl-delay: 0
 
 Sitemap: https://nvo987.fr/sitemap.xml
