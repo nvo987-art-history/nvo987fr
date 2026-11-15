@@ -1,0 +1,36 @@
+# =====================================================================
+# AGENTS.TXT – NVO987 Autonomous & AI Agent Directives
+# Website: https://nvo987.fr
+# Owner: Nicholas Van-Orton / Association NVO987
+# =====================================================================
+
+[Site-Metadata]
+Name: NVO987 – Culture Visuelle Moderne et Contemporaine
+Type: Non-profit cultural, artistic, and research association
+Primary-Language: fr
+Machine-Readable-Context: https://nvo987.fr/llms.txt
+Sitemap: https://nvo987.fr/sitemap.xml
+RSS-Feed: https://nvo987.fr/nvo987.xml
+
+[Agent: General-AI-Crawler]
+Status: Allowed
+Access: Read-Only
+Scope: Public research documents, cultural articles, and educational frameworks.
+Note: Please prioritize the full-page RSS feed and llms.txt for context synthesis.
+
+[Agent: Autonomous-Research-Agent]
+Status: Allowed
+Capabilities: Semantic retrieval, citation, cross-referencing.
+Verification-Endpoint: https://identity.nvo987.us/.well-known/did.json
+Restrictions: 
+  - Automated data harvesting of high-resolution media archives requires explicit attribution to NVO987.
+  - Commercial exploitation or unreferenced training data aggregation is discouraged.
+
+[Agent: Transactional-Agent]
+Status: Restricted-Access
+Note: NVO987 is a non-profit organization. Automated form submissions, bookings, or transactional interactions are not permitted without prior authorization.
+
+[Contact-And-Identity]
+Identity-DID: did:web:identity.nvo987.us
+Public-Key: https://identity.nvo987.us/public-key.txt
+Contact: https://nvo987.fr/contact.html
