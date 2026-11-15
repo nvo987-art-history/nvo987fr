@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>NVO987 Subscriptions</title>
+    <dateCreated>Sun, 15 Nov 2026 07:57:25 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="NVO987" title="NVO987 - Teljes oldal" type="rss" 
+             xmlUrl="https://nvo987.fr/nvo987.xml" 
+             htmlUrl="https://nvo987.fr"/>
+  </body>
+</opml>
