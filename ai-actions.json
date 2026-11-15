@@ -4,7 +4,7 @@
   "description": "Machine-readable interface defining available data endpoints and actions for autonomous AI agents on NVO987.",
   "base_url": "https://nvo987.fr",
   "organization": {
-    "name": "Association NVO987",
+    "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
     "founder": "Nicholas Van-Orton",
     "domain_type": "Non-profit cultural and research initiative"
   },
