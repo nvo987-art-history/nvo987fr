@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "name": "NVO987 AI Actions & Endpoints Manifest",
+  "description": "Machine-readable interface defining available data endpoints and actions for autonomous AI agents on NVO987.",
+  "base_url": "https://nvo987.fr",
+  "organization": {
+    "name": "Association NVO987",
+    "founder": "Nicholas Van-Orton",
+    "domain_type": "Non-profit cultural and research initiative"
+  },
+  "compliance": {
+    "read_only": true,
+    "requires_attribution": true,
+    "did_verification": "did:web:identity.nvo987.us"
+  },
+  "endpoints": [
+    {
+      "action_id": "get_full_rss_feed",
+      "title": "Full-Page RSS 2.0 Feed",
+      "description": "Retrieves the entire site structure and content packaged as a standard RSS 2.0 feed.",
+      "method": "GET",
+      "url": "https://nvo987.fr/nvo987.xml",
+      "type": "application/rss+xml"
+    },
+    {
+      "action_id": "get_llm_context",
+      "title": "LLM Markdown Overview",
+      "description": "Provides a clean Markdown-formatted context summary optimized for language models.",
+      "method": "GET",
+      "url": "https://nvo987.fr/llms.txt",
+      "type": "text/markdown"
+    },
+    {
+      "action_id": "get_site_map",
+      "title": "XML Sitemap",
+      "description": "Complete hierarchical index of public pages and subdomains.",
+      "method": "GET",
+      "url": "https://nvo987.fr/sitemap.xml",
+      "type": "application/xml"
+    },
+    {
+      "action_id": "verify_decentralized_identity",
+      "title": "DID Identity Document",
+      "description": "Cryptographic verification document for entity authentication.",
+      "method": "GET",
+      "url": "https://identity.nvo987.us/.well-known/did.json",
+      "type": "application/json"
+    }
+  ]
+}
