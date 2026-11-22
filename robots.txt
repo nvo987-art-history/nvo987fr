@@ -110,3 +110,4 @@ Allow: /
 Crawl-delay: 0
 
 Sitemap: https://nvo987.fr/sitemap.xml
+Sitemap: https://nvo987.fr/image-sitemap.xml
