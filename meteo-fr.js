@@ -1,6 +1,7 @@
 (function () {
-  document.addEventListener("DOMContentLoaded", function () {
+  function initMeteoFr() {
     if (document.getElementById("fr-meteo-bar")) return;
+    if (!document.body) return;
 
     var cities = [
       { name: "Paris", lat: 48.8566, lon: 2.3522 },
@@ -12,12 +13,14 @@
     ];
 
     var style = document.createElement("style");
+    style.id = "fr-meteo-style";
     style.textContent =
-      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 16px;width:calc(100% - 16px);max-width:680px;margin:12px auto;padding:12px 14px;background:#18181b;color:#f4f4f5;border:1px solid #3f3f46;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;box-sizing:border-box}" +
+      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 14px;width:calc(100% - 16px);max-width:680px;margin:12px auto;padding:12px 14px;background:#18181b;color:#f4f4f5;border:1px solid #3f3f46;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;box-sizing:border-box}" +
       "#fr-meteo-bar .fr-meteo-title{font-size:17px;font-weight:700;color:#facc15}" +
       "#fr-meteo-bar .fr-meteo-item{font-size:16px;white-space:nowrap}" +
-      "#fr-meteo-bar .fr-meteo-refresh{padding:6px 12px;border:1px solid #71717a;border-radius:6px;background:#27272a;color:#ffffff;font-size:14px;font-weight:700;cursor:pointer}" +
-      "#fr-meteo-bar .fr-meteo-refresh:hover{background:#3f3f46}";
+      "#fr-meteo-bar .fr-meteo-meta{font-size:13px;color:#a1a1aa}" +
+      "#fr-meteo-bar .fr-meteo-refresh{padding:7px 14px;border:2px solid #000000;border-radius:8px;background:#ffffff;color:#000000;font-size:14px;font-weight:700;cursor:pointer}" +
+      "#fr-meteo-bar .fr-meteo-refresh:hover,#fr-meteo-bar .fr-meteo-refresh:focus{background:#facc15;color:#000000}";
     document.head.appendChild(style);
 
     var bar = document.createElement("div");
@@ -37,9 +40,15 @@
 
     var refreshBtn = document.createElement("button");
     refreshBtn.type = "button";
+    refreshBtn.id = "fr-meteo-refresh-btn";
     refreshBtn.className = "fr-meteo-refresh";
     refreshBtn.textContent = "Actualiser";
     bar.appendChild(refreshBtn);
+
+    var timeStamp = document.createElement("span");
+    timeStamp.id = "fr-meteo-updated";
+    timeStamp.className = "fr-meteo-meta";
+    bar.appendChild(timeStamp);
 
     var a11yPanel = document.getElementById("a11y-panel");
     if (a11yPanel && a11yPanel.parentNode) {
@@ -48,41 +57,108 @@
       document.body.appendChild(bar);
     }
 
+    function formatTimeNow() {
+      try {
+        return new Date().toLocaleTimeString("fr-FR", {
+          timeZone: "Europe/Paris",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit"
+        });
+      } catch (e) {
+        return "";
+      }
+    }
+
+    function fetchSingleCity(city) {
+      var u =
+        "https://api.open-meteo.com/v1/forecast?latitude=" +
+        city.lat +
+        "&longitude=" +
+        city.lon +
+        "&current=temperature_2m&timezone=Europe%2FParis";
+      return fetch(u)
+        .then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(function (d) {
+          return d && d.current && typeof d.current.temperature_2m === "number"
+            ? Math.round(d.current.temperature_2m) + "°C"
+            : "--°C";
+        })
+        .catch(function () {
+          return "--°C";
+        });
+    }
+
     function loadWeather() {
+      listWrap.textContent = "Chargement...";
+      refreshBtn.disabled = true;
+
       var lats = cities.map(function (c) { return c.lat; }).join(",");
       var lons = cities.map(function (c) { return c.lon; }).join(",");
-      var url =
+      var batchUrl =
         "https://api.open-meteo.com/v1/forecast?latitude=" +
-        encodeURIComponent(lats) +
+        lats +
         "&longitude=" +
-        encodeURIComponent(lons) +
+        lons +
         "&current=temperature_2m&timezone=Europe%2FParis";
 
-      fetch(url)
+      function renderTemps(temps) {
+        listWrap.innerHTML = "";
+        temps.forEach(function (tempStr, idx) {
+          if (idx > 0) {
+            listWrap.appendChild(document.createTextNode(" • "));
+          }
+          var span = document.createElement("span");
+          span.className = "fr-meteo-item";
+          var strong = document.createElement("strong");
+          strong.textContent = cities[idx].name;
+          span.appendChild(strong);
+          span.appendChild(document.createTextNode(" " + tempStr));
+          listWrap.appendChild(span);
+        });
+        var nowStr = formatTimeNow();
+        timeStamp.textContent = nowStr ? "MAJ " + nowStr : "";
+        refreshBtn.disabled = false;
+      }
+
+      fetch(batchUrl)
         .then(function (res) {
           if (!res.ok) throw new Error("HTTP " + res.status);
           return res.json();
         })
         .then(function (data) {
           var items = Array.isArray(data) ? data : [data];
-          var parts = cities.map(function (city, idx) {
-            var temp =
-              items[idx] &&
-              items[idx].current &&
-              typeof items[idx].current.temperature_2m === "number"
-                ? Math.round(items[idx].current.temperature_2m) + "°C"
-                : "--°C";
-            return '<span class="fr-meteo-item"><strong>' + city.name + "</strong> " + temp + "</span>";
+          if (items.length !== cities.length) {
+            return Promise.all(cities.map(fetchSingleCity)).then(renderTemps);
+          }
+          var temps = cities.map(function (_, idx) {
+            var item = items[idx];
+            return item && item.current && typeof item.current.temperature_2m === "number"
+              ? Math.round(item.current.temperature_2m) + "°C"
+              : "--°C";
           });
-          listWrap.innerHTML = parts.join(" • ");
+          renderTemps(temps);
         })
         .catch(function () {
-          listWrap.textContent = "Météo indisponible";
+          Promise.all(cities.map(fetchSingleCity)).then(renderTemps);
         });
     }
 
-    refreshBtn.addEventListener("click", loadWeather);
+    refreshBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      loadWeather();
+    });
+
     loadWeather();
     setInterval(loadWeather, 3600000);
-  });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initMeteoFr);
+  } else {
+    initMeteoFr();
+  }
 })();
