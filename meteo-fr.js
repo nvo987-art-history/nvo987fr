@@ -70,14 +70,15 @@
       }
     }
 
-    function fetchSingleCity(city) {
+    function fetchSingleCity(city, stamp) {
       var u =
         "https://api.open-meteo.com/v1/forecast?latitude=" +
         city.lat +
         "&longitude=" +
         city.lon +
-        "&current=temperature_2m&timezone=Europe%2FParis";
-      return fetch(u)
+        "&current=temperature_2m&timezone=Europe%2FParis&_t=" +
+        stamp;
+      return fetch(u, { cache: "no-store" })
         .then(function (r) {
           if (!r.ok) throw new Error("HTTP " + r.status);
           return r.json();
@@ -92,7 +93,27 @@
         });
     }
 
+    function renderTemps(temps) {
+      listWrap.innerHTML = "";
+      temps.forEach(function (tempStr, idx) {
+        if (idx > 0) {
+          listWrap.appendChild(document.createTextNode(" • "));
+        }
+        var span = document.createElement("span");
+        span.className = "fr-meteo-item";
+        var strong = document.createElement("strong");
+        strong.textContent = cities[idx].name;
+        span.appendChild(strong);
+        span.appendChild(document.createTextNode(" " + tempStr));
+        listWrap.appendChild(span);
+      });
+      var nowStr = formatTimeNow();
+      timeStamp.textContent = nowStr ? "MAJ " + nowStr : "";
+      refreshBtn.disabled = false;
+    }
+
     function loadWeather() {
+      var stamp = Date.now();
       listWrap.textContent = "Chargement...";
       refreshBtn.disabled = true;
 
@@ -103,28 +124,10 @@
         lats +
         "&longitude=" +
         lons +
-        "&current=temperature_2m&timezone=Europe%2FParis";
+        "&current=temperature_2m&timezone=Europe%2FParis&_t=" +
+        stamp;
 
-      function renderTemps(temps) {
-        listWrap.innerHTML = "";
-        temps.forEach(function (tempStr, idx) {
-          if (idx > 0) {
-            listWrap.appendChild(document.createTextNode(" • "));
-          }
-          var span = document.createElement("span");
-          span.className = "fr-meteo-item";
-          var strong = document.createElement("strong");
-          strong.textContent = cities[idx].name;
-          span.appendChild(strong);
-          span.appendChild(document.createTextNode(" " + tempStr));
-          listWrap.appendChild(span);
-        });
-        var nowStr = formatTimeNow();
-        timeStamp.textContent = nowStr ? "MAJ " + nowStr : "";
-        refreshBtn.disabled = false;
-      }
-
-      fetch(batchUrl)
+      fetch(batchUrl, { cache: "no-store" })
         .then(function (res) {
           if (!res.ok) throw new Error("HTTP " + res.status);
           return res.json();
@@ -132,7 +135,9 @@
         .then(function (data) {
           var items = Array.isArray(data) ? data : [data];
           if (items.length !== cities.length) {
-            return Promise.all(cities.map(fetchSingleCity)).then(renderTemps);
+            return Promise.all(
+              cities.map(function (c) { return fetchSingleCity(c, stamp); })
+            ).then(renderTemps);
           }
           var temps = cities.map(function (_, idx) {
             var item = items[idx];
@@ -143,7 +148,9 @@
           renderTemps(temps);
         })
         .catch(function () {
-          Promise.all(cities.map(fetchSingleCity)).then(renderTemps);
+          Promise.all(
+            cities.map(function (c) { return fetchSingleCity(c, stamp); })
+          ).then(renderTemps);
         });
     }
 
