@@ -13,10 +13,10 @@
 
     var style = document.createElement("style");
     style.textContent =
-      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 14px;padding:8px 12px;background:#18181b;color:#f4f4f5;border-top:1px solid #3f3f46;border-bottom:1px solid #3f3f46;font-family:system-ui,-apple-system,sans-serif;font-size:13px;line-height:1.3;box-sizing:border-box}" +
-      "#fr-meteo-bar .fr-meteo-title{font-weight:700;color:#facc15}" +
-      "#fr-meteo-bar .fr-meteo-item{white-space:nowrap}" +
-      "#fr-meteo-bar .fr-meteo-refresh{padding:3px 8px;border:1px solid #71717a;border-radius:5px;background:#27272a;color:#ffffff;font-size:12px;font-weight:600;cursor:pointer}" +
+      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 16px;padding:12px 14px;background:#18181b;color:#f4f4f5;border-top:1px solid #3f3f46;border-bottom:1px solid #3f3f46;font-family:system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;box-sizing:border-box}" +
+      "#fr-meteo-bar .fr-meteo-title{font-size:17px;font-weight:700;color:#facc15}" +
+      "#fr-meteo-bar .fr-meteo-item{font-size:16px;white-space:nowrap}" +
+      "#fr-meteo-bar .fr-meteo-refresh{padding:6px 12px;border:1px solid #71717a;border-radius:6px;background:#27272a;color:#ffffff;font-size:14px;font-weight:700;cursor:pointer}" +
       "#fr-meteo-bar .fr-meteo-refresh:hover{background:#3f3f46}";
     document.head.appendChild(style);
 
