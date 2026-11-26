@@ -1,13 +1,16 @@
 (function () {
-  document.addEventListener("DOMContentLoaded", function () {
+  function initSupportChat() {
     if (document.getElementById("nvo-support-chat-wrap")) return;
+    if (!document.body) return;
 
     var style = document.createElement("style");
+    style.id = "nvo-support-chat-style";
     style.textContent =
-      "#nvo-bubble-btn{position:fixed;right:16px;bottom:16px;z-index:99999;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:60px;min-height:60px;padding:0 18px;border:2px solid #000000;border-radius:999px;background:#ffffff !important;color:#000000 !important;font-family:system-ui,-apple-system,sans-serif;font-size:16px;font-weight:700;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.55);box-sizing:border-box}" +
+      "#nvo-bubble-btn{position:fixed !important;right:16px !important;bottom:16px !important;z-index:2147483647 !important;display:inline-flex !important;visibility:visible !important;opacity:1 !important;align-items:center !important;justify-content:center !important;min-width:64px !important;min-height:64px !important;padding:0 18px !important;border:2px solid #000000 !important;border-radius:999px !important;background:#ffffff !important;color:#000000 !important;font-family:system-ui,-apple-system,sans-serif !important;font-size:16px !important;font-weight:700 !important;cursor:pointer !important;box-shadow:0 8px 24px rgba(0,0,0,.65) !important;box-sizing:border-box !important;pointer-events:auto !important}" +
+      "#nvo-bubble-btn.is-hidden{display:none !important}" +
       "#nvo-bubble-btn:hover,#nvo-bubble-btn:focus{background:#facc15 !important;color:#000000 !important}" +
-      "#nvo-support-backdrop{display:none;position:fixed;inset:0;z-index:100000;background:rgba(0,0,0,.72);padding:12px;box-sizing:border-box;overflow-y:auto}" +
-      "#nvo-support-backdrop.is-open{display:flex;align-items:flex-end;justify-content:flex-end}" +
+      "#nvo-support-backdrop{display:none;position:fixed !important;inset:0 !important;z-index:2147483647 !important;background:rgba(0,0,0,.72);padding:12px;box-sizing:border-box;overflow-y:auto}" +
+      "#nvo-support-backdrop.is-open{display:flex !important;align-items:flex-end;justify-content:flex-end}" +
       "@media (max-width:540px){#nvo-support-backdrop.is-open{align-items:center;justify-content:center}}" +
       "#nvo-support-win{width:100%;max-width:440px;height:78vh;max-height:620px;display:flex;flex-direction:column;background:#18181b;color:#f4f4f5;border:1px solid #52525b;border-radius:14px;overflow:hidden;font-family:system-ui,-apple-system,sans-serif;box-shadow:0 14px 36px rgba(0,0,0,.75);box-sizing:border-box}" +
       "#nvo-support-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px;background:#09090b;border-bottom:1px solid #27272a}" +
@@ -131,13 +134,13 @@
 
     function openChat() {
       backdrop.classList.add("is-open");
-      bubbleBtn.style.display = "none";
+      bubbleBtn.classList.add("is-hidden");
       input.focus();
     }
 
     function closeChat() {
       backdrop.classList.remove("is-open");
-      bubbleBtn.style.display = "inline-flex";
+      bubbleBtn.classList.remove("is-hidden");
       bubbleBtn.focus();
     }
 
@@ -276,5 +279,11 @@
     input.addEventListener("keydown", function (e) {
       if (e.key === "Enter") queryMultiLangWiki();
     });
-  });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSupportChat);
+  } else {
+    initSupportChat();
+  }
 })();
