@@ -1047,6 +1047,107 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 }
 </script>
 	
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        if (document.getElementById("a11y-panel")) return;
+
+        var style = document.createElement("style");
+        style.textContent =
+          "#a11y-panel{position:fixed;right:16px;bottom:16px;z-index:99999;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px;border-radius:10px;background:#111827;box-shadow:0 4px 16px rgba(0,0,0,.3);font-family:system-ui,-apple-system,sans-serif}" +
+          ".a11y-ctrl{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border:2px solid #111827;border-radius:6px;background:#ffffff;color:#111827;font-size:14px;font-weight:600;line-height:1.2;text-decoration:none;cursor:pointer}" +
+          ".a11y-ctrl[aria-pressed=\"true\"]{background:#facc15;color:#000000}" +
+          "html.a11y-font{font-size:125%}" +
+          "html.a11y-contrast,html.a11y-contrast body{background:#000000 !important;color:#ffffff !important}" +
+          "html.a11y-contrast a{color:#fde047 !important}";
+        document.head.appendChild(style);
+
+        var panel = document.createElement("div");
+        panel.id = "a11y-panel";
+        panel.setAttribute("role", "region");
+        panel.setAttribute("aria-label", "Akadálymentességi link és vezérlők");
+
+        var link = document.createElement("a");
+        link.id = "a11y-body-link";
+        link.href = "#a11y-speak-btn";
+        link.className = "a11y-ctrl";
+        link.textContent = "Felolvasás link";
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          var speakBtn = document.getElementById("a11y-speak-btn");
+          if (speakBtn) {
+            speakBtn.focus();
+            speakBtn.click();
+          }
+        });
+        panel.appendChild(link);
+
+        function createBtn(id, label, onPress) {
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.id = id;
+          btn.className = "a11y-ctrl";
+          btn.setAttribute("aria-pressed", "false");
+          btn.textContent = label;
+          btn.addEventListener("click", function () {
+            onPress(btn);
+          });
+          panel.appendChild(btn);
+          return btn;
+        }
+
+        function getText() {
+          var sel = window.getSelection ? window.getSelection().toString().trim() : "";
+          if (sel) return sel;
+          var rootEl = document.querySelector("main") || document.body;
+          var clone = rootEl.cloneNode(true);
+          clone.querySelectorAll("#a11y-panel,script,style,noscript").forEach(function (el) {
+            el.remove();
+          });
+          return (clone.innerText || "").replace(/\s+/g, " ").trim();
+        }
+
+        createBtn("a11y-speak-btn", "Felolvasás", function (btn) {
+          if (!("speechSynthesis" in window)) return;
+          if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.cancel();
+            btn.setAttribute("aria-pressed", "false");
+            btn.textContent = "Felolvasás";
+            return;
+          }
+          var txt = getText();
+          if (!txt) return;
+
+          var utter = new SpeechSynthesisUtterance(txt);
+          utter.lang = document.documentElement.lang || "fr-FR";
+          var reset = function () {
+            btn.setAttribute("aria-pressed", "false");
+            btn.textContent = "Felolvasás";
+          };
+          utter.onend = reset;
+          utter.onerror = reset;
+
+          btn.setAttribute("aria-pressed", "true");
+          btn.textContent = "Leállítás";
+          window.speechSynthesis.speak(utter);
+        });
+
+        createBtn("a11y-font-btn", "Nagyobb betű", function (btn) {
+          var on = document.documentElement.classList.toggle("a11y-font");
+          btn.setAttribute("aria-pressed", String(on));
+        });
+
+        createBtn("a11y-contrast-btn", "Magas kontraszt", function (btn) {
+          var on = document.documentElement.classList.toggle("a11y-contrast");
+          btn.setAttribute("aria-pressed", String(on));
+        });
+
+        document.body.appendChild(panel);
+      });
+    })();
+  </script>
+
+	
 </head>
 
 <body>
