@@ -2,12 +2,16 @@
   document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById("a11y-panel")) return;
 
+    var zoomLevels = [100, 120, 140, 160];
+    var zoomIndex = 0;
+
     var style = document.createElement("style");
     style.textContent =
-      "#a11y-panel{position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding:8px;border-radius:10px;background:#111827;box-shadow:0 4px 16px rgba(0,0,0,.45);font-family:system-ui,-apple-system,sans-serif;box-sizing:border-box}" +
-      "#a11y-panel .a11y-ctrl{display:inline-flex;align-items:center;justify-content:center;padding:6px 10px;border:2px solid #000000;border-radius:6px;background:#ffffff !important;color:#000000 !important;font-size:12px;font-weight:700;line-height:1.2;text-decoration:none !important;cursor:pointer;white-space:nowrap}" +
+      "body{padding-bottom:96px !important}" +
+      "#a11y-panel{position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:flex-end;padding:10px;border-radius:12px;background:#111827;box-shadow:0 4px 18px rgba(0,0,0,.5);font-family:system-ui,-apple-system,sans-serif;box-sizing:border-box}" +
+      "#a11y-panel .a11y-ctrl{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 13px;border:2px solid #000000;border-radius:8px;background:#ffffff !important;color:#000000 !important;font-size:13px;font-weight:700;line-height:1.2;text-decoration:none !important;cursor:pointer;white-space:nowrap;transition:padding .15s ease,font-size .15s ease}" +
+      "#a11y-panel .a11y-ctrl.a11y-grow{padding-top:16px;padding-bottom:14px;font-size:14px}" +
       "#a11y-panel .a11y-ctrl[aria-pressed=\"true\"]{background:#facc15 !important;color:#000000 !important}" +
-      "html.a11y-font{font-size:120%}" +
       "html.a11y-contrast,html.a11y-contrast body{background:#000000 !important;color:#ffffff !important}" +
       "html.a11y-contrast a:not(.a11y-ctrl){color:#fde047 !important}";
     document.head.appendChild(style);
@@ -24,6 +28,7 @@
     link.textContent = "Lecture audio";
     link.addEventListener("click", function (e) {
       e.preventDefault();
+      link.classList.toggle("a11y-grow");
       var speakBtn = document.getElementById("a11y-speak-btn");
       if (speakBtn) {
         speakBtn.focus();
@@ -40,6 +45,7 @@
       btn.setAttribute("aria-pressed", "false");
       btn.textContent = label;
       btn.addEventListener("click", function () {
+        btn.classList.toggle("a11y-grow");
         onPress(btn);
       });
       panel.appendChild(btn);
@@ -83,8 +89,20 @@
     });
 
     createBtn("a11y-font-btn", "Texte +", function (btn) {
-      var on = document.documentElement.classList.toggle("a11y-font");
-      btn.setAttribute("aria-pressed", String(on));
+      zoomIndex = (zoomIndex + 1) % zoomLevels.length;
+      var currentPct = zoomLevels[zoomIndex];
+      document.documentElement.style.fontSize = currentPct === 100 ? "" : currentPct + "%";
+
+      if (zoomIndex === 0) {
+        btn.setAttribute("aria-pressed", "false");
+        btn.textContent = "Texte +";
+      } else if (zoomIndex < zoomLevels.length - 1) {
+        btn.setAttribute("aria-pressed", "true");
+        btn.textContent = "Texte +" + zoomIndex;
+      } else {
+        btn.setAttribute("aria-pressed", "true");
+        btn.textContent = "Texte +" + zoomIndex + " (Reset)";
+      }
     });
 
     createBtn("a11y-contrast-btn", "Contraste +", function (btn) {
