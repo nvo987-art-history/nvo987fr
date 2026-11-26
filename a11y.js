@@ -21,22 +21,6 @@
     panel.setAttribute("role", "region");
     panel.setAttribute("aria-label", "Accessibilité");
 
-    var link = document.createElement("a");
-    link.id = "a11y-body-link";
-    link.href = "#a11y-speak-btn";
-    link.className = "a11y-ctrl";
-    link.textContent = "Lecture audio";
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      link.classList.toggle("a11y-grow");
-      var speakBtn = document.getElementById("a11y-speak-btn");
-      if (speakBtn) {
-        speakBtn.focus();
-        speakBtn.click();
-      }
-    });
-    panel.appendChild(link);
-
     function createBtn(id, label, onPress) {
       var btn = document.createElement("button");
       btn.type = "button";
