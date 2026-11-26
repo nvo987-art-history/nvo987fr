@@ -83,11 +83,11 @@
     function updateParisClock() {
       try {
         var now = new Date();
-        var parts = new Intl.DateTimeFormat("fr-CA", {
+        var parts = new Intl.DateTimeFormat("fr-FR", {
           timeZone: "Europe/Paris",
-          year: "numeric",
-          month: "2-digit",
           day: "2-digit",
+          month: "2-digit",
+          year: "numeric",
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
@@ -99,13 +99,12 @@
           if (p.type !== "literal") map[p.type] = p.value;
         });
 
-        // Év-hónap-nap (pl. 2026-11-26) és óra:perc:másodperc
         clockEl.textContent =
-          map.year +
-          "-" +
-          map.month +
-          "-" +
           map.day +
+          "/" +
+          map.month +
+          "/" +
+          map.year +
           " " +
           map.hour +
           ":" +
