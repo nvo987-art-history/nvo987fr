@@ -13,7 +13,7 @@
 
     var style = document.createElement("style");
     style.textContent =
-      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 16px;padding:12px 14px;background:#18181b;color:#f4f4f5;border-top:1px solid #3f3f46;border-bottom:1px solid #3f3f46;font-family:system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;box-sizing:border-box}" +
+      "#fr-meteo-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 16px;width:calc(100% - 16px);max-width:680px;margin:12px auto;padding:12px 14px;background:#18181b;color:#f4f4f5;border:1px solid #3f3f46;border-radius:12px;font-family:system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45;box-sizing:border-box}" +
       "#fr-meteo-bar .fr-meteo-title{font-size:17px;font-weight:700;color:#facc15}" +
       "#fr-meteo-bar .fr-meteo-item{font-size:16px;white-space:nowrap}" +
       "#fr-meteo-bar .fr-meteo-refresh{padding:6px 12px;border:1px solid #71717a;border-radius:6px;background:#27272a;color:#ffffff;font-size:14px;font-weight:700;cursor:pointer}" +
