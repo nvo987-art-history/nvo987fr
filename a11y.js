@@ -7,8 +7,8 @@
 
     var style = document.createElement("style");
     style.textContent =
-      "body{padding-bottom:96px !important}" +
-      "#a11y-panel{position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:flex-end;padding:10px;border-radius:12px;background:#111827;box-shadow:0 4px 18px rgba(0,0,0,.5);font-family:system-ui,-apple-system,sans-serif;box-sizing:border-box}" +
+      "body{padding-bottom:165px !important}" +
+      "#a11y-panel{position:fixed;left:8px;right:8px;bottom:84px;z-index:99999;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:flex-end;padding:10px;border-radius:12px;background:#111827;box-shadow:0 4px 18px rgba(0,0,0,.5);font-family:system-ui,-apple-system,sans-serif;box-sizing:border-box}" +
       "#a11y-panel .a11y-ctrl{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 13px;border:2px solid #000000;border-radius:8px;background:#ffffff !important;color:#000000 !important;font-size:13px;font-weight:700;line-height:1.2;text-decoration:none !important;cursor:pointer;white-space:nowrap;transition:padding .15s ease,font-size .15s ease}" +
       "#a11y-panel .a11y-ctrl.a11y-grow{padding-top:16px;padding-bottom:14px;font-size:14px}" +
       "#a11y-panel .a11y-ctrl[aria-pressed=\"true\"]{background:#facc15 !important;color:#000000 !important}" +
