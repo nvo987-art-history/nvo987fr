@@ -1,0 +1,164 @@
+# NVO987 – Culture Visuelle Moderne et Contemporaine
+
+> NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. NVO987 is a French cultural and research association dedicated to contemporary visual culture, art history, cultural studies, interdisciplinary research, decentralized identity systems, and semantic publishing infrastructures. French cultural and research association dedicated to visual culture, contemporary art, cultural studies and digital knowledge infrastructures. Research, visual culture, contemporary art, semantic publishing and decentralized identity infrastructures.
+
+## Overview
+
+- Primary URL: https://nvo987.fr/
+- Source Indexed: https://nvo987.fr/index.html
+- Author / Lead: Nicholas Van-Orton
+- Language: fr
+- Generated (UTC): 2026-11-28T11:36:10.515975+00:00
+- Source SHA-256: f3cc30b12443fcbb2f828b814199549919e7cef2368deffc9a0be86446013b82
+- Source Stats: 65608 chars, 20 headings, 62 paragraphs
+- Contact: contact@delaunaybook.eu, contact@nexarium.us, contact@nvo987.fr
+- Topics: visual culture, contemporary art, cultural studies, art history, research, semantic web, decentralized identity, NVO987, Nicholas Van-Orton
+
+## Summary
+
+Culture Visuelle Moderne et Contemporaine
+
+Recherche artistique · Études culturelles · Projets interdisciplinaires
+
+L’association met en œuvre des projets culturels, artistiques, éducatifs et de recherche dans les domaines de l’art contemporain, de la culture visuelle et des études culturelles.
+
+Elle organise des expositions, des projets artistiques, des ateliers, des formations, des conférences et des programmes professionnels. En collaboration avec des artistes, des chercheurs, des enseignants et des institutions culturelles, elle soutient la création de nouvelles œuvres, de recherches et d’initiatives éducatives.
+
+L’éducation culturelle et artistique des enfants et des jeunes constitue un domaine prioritaire. Ses programmes comprennent des activités artistiques, des ateliers créatifs, des projets éducatifs et des initiatives communautaires. Ceux-ci développent la pensée créative et critique, l’expression personnelle et la capacité à coopérer à travers les outils de l’art contemporain et de la culture visuelle.
+
+L’association met en œuvre des programmes spécifiques visant à réduire les inégalités culturelles et sociales. Elle offre aux enfants et aux jeunes en situation défavorisée des possibilités d’accès à la culture et à l’éducation, et soutient des initiatives portant sur les conséquences de la pauvreté des enfants.
+
+Les droits de l’enfant occupent une place importante dans son travail. L’association contribue à faire connaître les droits de l’enfant et à favoriser leur respect à travers des programmes artistiques, éducatifs et communautaires, en accordant une attention particulière à la prise en compte de l’opinion des enfants et à leur participation. Dans ce domaine, elle coopère également avec des organisations et des partenaires professionnels internationaux.
+
+L’association mène également des projets de recherche. Outre l’art et la culture contemporains, elle étudie les questions liées à l’environnement visuel, à l’éducation, aux transformations sociales et à la participation culturelle. Elle rend les résultats de ses recherches accessibles à travers des événements professionnels, des projets artistiques et des publications.
+
+## Identity & Verification
+
+- [DID Document (did:web:identity.nvo987.us)](https://identity.nvo987.us/.well-known/did.json)
+- [DID · JSON · SHA-256](https://identity.nvo987.us/sha-256-did.txt)
+- [Clé publique PEM](https://identity.nvo987.us/public-key.txt)
+- [ORCID | Nicholas Van-Orton](https://orcid.org/0009-0007-4628-1871)
+- [DID Configuration (Well-Known JSON)](https://identity.nvo987.us/.well-known/did-configuration.json)
+- [ISNI | Nicholas Van-Orton](https://isni.org/isni/0000000529640885)
+
+## Documentation & Legal
+
+- [Événements](https://nvo987.fr/evenements.html)
+- [Contact](https://nvo987.fr/contact.html)
+- [Nos engagements](https://nvo987.fr/engagements.html)
+- [Mentions légales](https://nvo987.fr/mentions-legales.html)
+- [Présentation professionnelle et institutionnelle](https://nvo987.fr/documents/NVO987_Association_Presentation_FR.pdf)
+
+## Publications & Layers
+
+- [NEXARIUM | Revue trimestrielle](https://nexarium.nvo987.fr/)
+- [→ NEXARIUM – Open Decentralized Web Infrastructure](https://nexarium.us/)
+- [Valoriax](https://valoriax.nvo987.fr/)
+- [Substack | ISSN 3131-3744](https://art.nvo987.us/)
+
+## Feeds & Syndication
+
+- [NVO987 RSS Feed](https://nvo987.fr/nvo987.xml)
+- [ATOM](https://nvo987.fr/nvo987-atom.xml)
+- [RSS | Substack](https://nvo987.substack.com/feed)
+- [RSS | Bluesky](https://bsky.app/profile/did:plc:r3vfu3t4prpmm6nswgctlibz/rss)
+- [RSS | YouTube](https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0DNeZ242z2HOYcDF7o-kg)
+- [RSS | ORCID](https://nvo987.fr/orcid-0009-0007-4628-1871.xml)
+- [NVO987 Research Feed](https://rss.nvo987.us/)
+
+## Channels & Profiles
+
+- [Réseaux Sociaux](https://social.media.nvo987.fr/)
+- [Gravatar | Nicholas Van-Orton](https://gravatar.com/nvo987)
+- [Art History](https://www.linkedin.com/groups/13193400/)
+- [Social Exclusion of Children](https://www.linkedin.com/groups/40626327/)
+- [Polynésie française](https://bluesky.nvo987.us/)
+- [Réseaux sociaux japonais](https://japon.nvo987.fr/)
+- [Association NVO987 | GitHub](https://github.com/nvo987)
+- [Profil ENS](https://app.ens.domains/nvo987.eth)
+- [Instagram](https://instagram.com/nvo987)
+- [Facebook](https://www.facebook.com/nvo987/)
+- [YouTube](https://www.youtube.com/@nvo987-art-history)
+- [LinkedIn](https://www.linkedin.com/in/nvo987/)
+- [TikTok](https://www.tiktok.com/@nvo987)
+- [X](https://x.com/nvo987)
+- [Mastodon (@nvo987)](https://mastodon.art/@nvo987)
+
+## Related Resources
+
+- [Accueil](https://nvo987.fr/)
+- [Recherche](https://recherche.nvo987.fr/)
+- [Culture Visuelle](https://education.nvo987.fr/)
+- [Bénévoles](https://benevoles.nvo987.fr/)
+- [Droits des enfants](https://droitsdelenfant.nvo987.fr/)
+- [Agenda Culturel](https://nvo987.eu/)
+- [→ NEXARIUM – NVO987 LAYER](https://nvo987.us/)
+- [→ NEXARIUM – NVO987 INSTITUTION LAYER](https://institution-layer.nvo987.fr/)
+- [→ NEXARIUM – NVO987 CIVILISATION LAYER](https://civilisation-layer.nvo987.fr/)
+- [→ NEXARIUM – NVO987 STARTUP LAYER](https://startup-layer.nvo987.us/)
+- [Kelly Code](https://kellycode.us/)
+- [Documentation visuelle](https://images.nvo987.fr/)
+- [JSON](https://nvo987.fr/nvo987.json)
+- [Inde | DID](https://did.ai.in/)
+- [Inde | WEB3](https://web3.internet.in/)
+- [Inde](https://nvo987.in/)
+- [Inde | Identity](https://identity.ai.in/)
+- [Inde | AI](https://nvo987.ai.in/)
+- [Inde | Paris](https://paris.org.in/)
+- [Carte Culturelle | ISSN 3131-3272](https://musees.nvo987.eu/)
+- [UNESCO France | ISSN 131-3213](https://unesco-fr.nvo987.eu/)
+- [Peintres français](https://peintres-fr.nvo987.eu/)
+- [Littérature française](https://litterature-fr.nvo987.eu/)
+- [Social Exclusion of Children | Campagne Internationale](https://www.social-exclusion-of-children.eu/)
+- [ChildColor | Programme](https://childcolor.eu/)
+- [Les droits visuels des enfants](https://culture.org.im/)
+- [Infrastructure d’archivage](https://archives.nvo987.fr/)
+- [Startup culturelle à impact social](https://startup.com.im/)
+- [NVO987 | Markdown Page](https://md.nvo987.fr/)
+- [Site Web Décentralisé](https://nvo987.eth.limo/)
+- [Identity Portal (identity.nvo987.us)](https://identity.nvo987.us/)
+
+## Key Sections
+
+- NVO987
+- L’activité de l’association
+- Infrastructure NEXARIUM
+- Recherche, identité numérique et infrastructure
+- Kelly Code
+- Communautés, publications et diffusion
+- Flux de Syndication
+- Ouverture internationale
+- Projets culturels Open Data
+- Social Exclusion of Children
+- ChildColor
+- Les droits visuels des enfants
+- Activités éducatives et développement de ressources pédagogiques
+- Droits de l'enfant
+- Publication périodique de l'association
+- Infrastructure d’archivage
+- Startup culturelle à impact social
+- NVO987 sur GitHub
+- Markdown Page
+- Écosystème Web3
+
+## Additional Context
+
+Elle développe des coopérations nationales et internationales avec des artistes, des chercheurs, des enseignants, des institutions culturelles et éducatives, des associations, des fondations, ainsi qu’avec des organisations nationales et internationales. Ces coopérations prennent la forme de projets communs, de programmes, de recherches et d’initiatives professionnelles.
+
+L’association utilise et développe également des technologies numériques à des fins culturelles, artistiques et éducatives. Elle crée des sites internet, des logiciels et des applications en ligne, ainsi que des contenus numériques qu’elle produit et diffuse.
+
+Dans le cadre de ses activités, elle publie des publications culturelles et professionnelles, des livres, des revues et d’autres publications. L’association fonctionne comme une organisation à but non lucratif et met en œuvre ses programmes au service de la culture, de l’éducation, de la recherche et de l’égalité des chances sociales et culturelles des enfants.
+
+L’infrastructure technologique des activités de recherche et de l’écosystème numérique de NVO987 repose sur l’écosystème ouvert et décentralisé NEXARIUM. Ce projet est consacré au développement de l’identité numérique pérenne, des systèmes de connaissances sémantiques, de la publication décentralisée et de la préservation numérique à long terme.
+
+→ NEXARIUM – Open Decentralized Web Infrastructure
+
+→ NEXARIUM – NVO987 LAYER
+
+→ NEXARIUM – NVO987 INSTITUTION LAYER
+
+→ NEXARIUM – NVO987 CIVILISATION LAYER
+
+→ NEXARIUM – NVO987 STARTUP LAYER
+
+Les activités de recherche s’appuient sur une infrastructure numérique ouverte assurant l’identité scientifique, la documentation, la conservation, la publication et la diffusion des connaissances liées à la culture visuelle contemporaine.
