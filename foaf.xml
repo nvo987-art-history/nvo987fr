@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <foaf:PersonalProfileDocument rdf:about="https://nvo987.fr/foaf.xml">
+    <foaf:maker rdf:resource="https://nvo987.fr/#me"/>
+    <foaf:primaryTopic rdf:resource="https://nvo987.fr/#me"/>
+    <dc:title>NVO987 – Culture Visuelle Moderne et Contemporaine – FOAF Profile</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:date>2026-11-28T11:06:01.742352+00:00</dc:date>
+    <foaf:topic rdf:resource="https://nvo987.fr/#org"/>
+    <foaf:topic rdf:resource="https://nvo987.fr/index.html"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Document rdf:about="https://nvo987.fr/index.html">
+    <dc:title>NVO987 – Culture Visuelle Moderne et Contemporaine | Nicholas Van-Orton</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>sha256:5b9c569d95cae1f04906aeb9578bc348c3b897290000c7e5937b2bf60b4243ee</dc:identifier>
+    <rdfs:comment xml:lang="fr">Source: https://nvo987.fr/index.html | Size: 65524 chars | Sections: 20 | Paragraphs: 62</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Culture Visuelle Moderne et Contemporaine Recherche artistique · Études culturelles · Projets interdisciplinaires L’association met en œuvre des projets culturels, artistiques, éducatifs et de recherche dans les domaines de l’art contemporain, de la culture visuelle et des études culturelles. Elle organise des expositions, des projets artistiques, des ateliers, des formations, des conférences et des programmes professionnels. En collaboration avec des artistes, des chercheurs, des enseignants et des institutions culturelles, elle soutient la création de nouvelles œuvres, de recherches et d’initiatives éducatives.</rdfs:comment>
+    <dc:subject>visual culture</dc:subject>
+    <dc:subject>contemporary art</dc:subject>
+    <dc:subject>cultural studies</dc:subject>
+    <dc:subject>art history</dc:subject>
+    <dc:subject>research</dc:subject>
+    <dc:subject>semantic web</dc:subject>
+    <dc:subject>decentralized identity</dc:subject>
+    <dc:subject>NVO987</dc:subject>
+    <dc:subject>Nicholas Van-Orton</dc:subject>
+    <dc:subject>L’activité de l’association</dc:subject>
+    <dc:subject>Infrastructure NEXARIUM</dc:subject>
+    <dc:subject>Recherche, identité numérique et infrastructure</dc:subject>
+    <dc:subject>Kelly Code</dc:subject>
+    <dc:subject>Communautés, publications et diffusion</dc:subject>
+    <dc:subject>Flux de Syndication</dc:subject>
+    <dc:subject>Ouverture internationale</dc:subject>
+    <dc:subject>Projets culturels Open Data</dc:subject>
+    <dc:subject>Social Exclusion of Children</dc:subject>
+    <dc:subject>ChildColor</dc:subject>
+    <dc:subject>Les droits visuels des enfants</dc:subject>
+    <dc:subject>Activités éducatives et développement de ressources pédagogiques</dc:subject>
+    <dc:subject>Droits de l&apos;enfant</dc:subject>
+    <dc:subject>Publication périodique de l&apos;association</dc:subject>
+    <dc:subject>Infrastructure d’archivage</dc:subject>
+    <dc:subject>Startup culturelle à impact social</dc:subject>
+    <dc:subject>NVO987 sur GitHub</dc:subject>
+    <dc:subject>Markdown Page</dc:subject>
+    <dc:subject>Écosystème Web3</dc:subject>
+  </foaf:Document>
+
+  <foaf:Person rdf:about="https://nvo987.fr/#me">
+    <foaf:name>Nicholas Van-Orton</foaf:name>
+    <foaf:givenName>Nicholas</foaf:givenName>
+    <foaf:familyName>Van-Orton</foaf:familyName>
+    <foaf:homepage rdf:resource="https://nvo987.fr/"/>
+    <foaf:currentProject rdf:resource="https://nvo987.fr/#org"/>
+    <rdfs:comment xml:lang="fr">NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. NVO987 is a French cultural and research association dedicated to contemporary visual culture, art history, cultural studies, interdisciplinary research, decentralized identity systems, and semantic publishing infrastructures. French cultural and research association dedicated to visual culture, contemporary art, cultural studies and digital knowledge infrastructures. Research, visual culture, contemporary art, semantic publishing and decentralized identity infrastructures.</rdfs:comment>
+    <foaf:topic_interest>visual culture</foaf:topic_interest>
+    <foaf:topic_interest>contemporary art</foaf:topic_interest>
+    <foaf:topic_interest>cultural studies</foaf:topic_interest>
+    <foaf:topic_interest>art history</foaf:topic_interest>
+    <foaf:topic_interest>research</foaf:topic_interest>
+    <foaf:topic_interest>semantic web</foaf:topic_interest>
+    <foaf:topic_interest>decentralized identity</foaf:topic_interest>
+    <foaf:topic_interest>NVO987</foaf:topic_interest>
+    <foaf:topic_interest>Nicholas Van-Orton</foaf:topic_interest>
+    <foaf:mbox rdf:resource="mailto:contact@delaunaybook.eu"/>
+    <foaf:mbox rdf:resource="mailto:contact@nexarium.us"/>
+    <foaf:mbox rdf:resource="mailto:contact@nvo987.fr"/>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/2.jpg">
+        <dc:title>nvo987</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/1.jpg">
+        <dc:title>NVO987</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/nexarium.jpg">
+        <dc:title>NEXARIUM</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/identifiant-decentralise.jpg">
+        <dc:title>identifiant-decentralise</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/kellycode.jpg">
+        <dc:title>kellycode</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/substack.jpg">
+        <dc:title>Substack</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/linkedIn.jpg">
+        <dc:title>LinkedIn</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/rss.jpg">
+        <dc:title>nvo987-rss</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/culture-of-french-polynesia.jpg">
+        <dc:title>Culture of French Polynesia</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/4.jpg">
+        <dc:title>unesco</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/social-exclusion-children.jpg">
+        <dc:title>Campagne internationale Social Exclusion of Children</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/3.jpg">
+        <dc:title>nvo987</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/6.jpg">
+        <dc:title>Les droits visuels des enfants</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/culture-visuelle.jpg">
+        <dc:title>Culture Visuelle</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/7.jpg">
+        <dc:title>nvo987</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/5.jpg">
+        <dc:title>nexarium</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/isbn.jpg">
+        <dc:title>isbn</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/startup.jpg">
+        <dc:title>startup</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/github.jpg">
+        <dc:title>github</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/markdownpage.jpg">
+        <dc:title>Markdown page</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:depiction>
+      <foaf:Image rdf:about="https://nvo987.fr/images/ens.jpg">
+        <dc:title>ens</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    <foaf:weblog rdf:resource="https://nvo987.fr/nvo987.xml"/>
+    <foaf:weblog rdf:resource="https://nvo987.fr/nvo987-atom.xml"/>
+    <foaf:weblog rdf:resource="https://nvo987.substack.com/feed"/>
+    <foaf:weblog rdf:resource="https://bsky.app/profile/did:plc:r3vfu3t4prpmm6nswgctlibz/rss"/>
+    <foaf:weblog rdf:resource="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0DNeZ242z2HOYcDF7o-kg"/>
+    <foaf:weblog rdf:resource="https://nvo987.fr/orcid-0009-0007-4628-1871.xml"/>
+    <foaf:weblog rdf:resource="https://rss.nvo987.us/"/>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://social.media.nvo987.fr/"/>
+        <foaf:accountName>Réseaux Sociaux</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://gravatar.com/nvo987"/>
+        <foaf:accountName>Gravatar | Nicholas Van-Orton</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.linkedin.com/groups/13193400/"/>
+        <foaf:accountName>Art History</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.linkedin.com/groups/40626327/"/>
+        <foaf:accountName>Social Exclusion of Children</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://bluesky.nvo987.us/"/>
+        <foaf:accountName>Polynésie française</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://japon.nvo987.fr/"/>
+        <foaf:accountName>Réseaux sociaux japonais</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://github.com/nvo987"/>
+        <foaf:accountName>Association NVO987 | GitHub</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://app.ens.domains/nvo987.eth"/>
+        <foaf:accountName>Profil ENS</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://instagram.com/nvo987"/>
+        <foaf:accountName>Instagram</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.facebook.com/nvo987/"/>
+        <foaf:accountName>Facebook</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.youtube.com/@nvo987-art-history"/>
+        <foaf:accountName>YouTube</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.linkedin.com/in/nvo987/"/>
+        <foaf:accountName>LinkedIn</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://www.tiktok.com/@nvo987"/>
+        <foaf:accountName>TikTok</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://x.com/nvo987"/>
+        <foaf:accountName>X</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountProfilePage rdf:resource="https://mastodon.art/@nvo987"/>
+        <foaf:accountName>me</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <owl:sameAs rdf:resource="https://identity.nvo987.us/.well-known/did.json"/>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.nvo987.us/.well-known/did.json">
+        <dc:title>did:web:identity.nvo987.us</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.nvo987.us/sha-256-did.txt">
+        <dc:title>DID · JSON · SHA-256</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.nvo987.us/public-key.txt">
+        <dc:title>Clé publique PEM</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <owl:sameAs rdf:resource="https://orcid.org/0009-0007-4628-1871"/>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://orcid.org/0009-0007-4628-1871">
+        <dc:title>ORCID | Nicholas Van-Orton</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.nvo987.us/.well-known/did-configuration.json">
+        <dc:title>alternate</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <owl:sameAs rdf:resource="https://isni.org/isni/0000000529640885"/>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://isni.org/isni/0000000529640885">
+        <dc:title>me</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/evenements.html">
+        <dc:title>Événements</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/contact.html">
+        <dc:title>Contact</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/engagements.html">
+        <dc:title>Nos engagements</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/mentions-legales.html">
+        <dc:title>Mentions légales</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/documents/NVO987_Association_Presentation_FR.pdf">
+        <dc:title>Présentation professionnelle et institutionnelle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nexarium.nvo987.fr/">
+        <dc:title>NEXARIUM | Revue trimestrielle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nexarium.us/">
+        <dc:title>→ NEXARIUM – Open Decentralized Web Infrastructure</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://valoriax.nvo987.fr/">
+        <dc:title>Valoriax</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://art.nvo987.us/">
+        <dc:title>Substack | ISSN 3131-3744</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+  </foaf:Person>
+
+  <foaf:Organization rdf:about="https://nvo987.fr/#org">
+    <foaf:name>NVO987 – Culture Visuelle Moderne et Contemporaine</foaf:name>
+    <foaf:homepage rdf:resource="https://nvo987.fr/"/>
+    <foaf:member rdf:resource="https://nvo987.fr/#me"/>
+    <rdfs:comment xml:lang="fr">NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. NVO987 is a French cultural and research association dedicated to contemporary visual culture, art history, cultural studies, interdisciplinary research, decentralized identity systems, and semantic publishing infrastructures.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">French cultural and research association dedicated to visual culture, contemporary art, cultural studies and digital knowledge infrastructures.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Research, visual culture, contemporary art, semantic publishing and decentralized identity infrastructures.</rdfs:comment>
+    <foaf:mbox rdf:resource="mailto:contact@delaunaybook.eu"/>
+    <foaf:mbox rdf:resource="mailto:contact@nexarium.us"/>
+    <foaf:mbox rdf:resource="mailto:contact@nvo987.fr"/>
+    <foaf:weblog rdf:resource="https://nvo987.fr/nvo987.xml"/>
+    <foaf:weblog rdf:resource="https://nvo987.fr/nvo987-atom.xml"/>
+    <foaf:weblog rdf:resource="https://nvo987.substack.com/feed"/>
+    <foaf:weblog rdf:resource="https://bsky.app/profile/did:plc:r3vfu3t4prpmm6nswgctlibz/rss"/>
+    <foaf:weblog rdf:resource="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0DNeZ242z2HOYcDF7o-kg"/>
+    <foaf:weblog rdf:resource="https://nvo987.fr/orcid-0009-0007-4628-1871.xml"/>
+    <foaf:weblog rdf:resource="https://rss.nvo987.us/"/>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/">
+        <dc:title>Accueil</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://recherche.nvo987.fr/">
+        <dc:title>Recherche</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://education.nvo987.fr/">
+        <dc:title>Culture Visuelle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://benevoles.nvo987.fr/">
+        <dc:title>Bénévoles</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://droitsdelenfant.nvo987.fr/">
+        <dc:title>Droits des enfants</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.eu/">
+        <dc:title>Agenda Culturel</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.us/">
+        <dc:title>→ NEXARIUM – NVO987 LAYER</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://institution-layer.nvo987.fr/">
+        <dc:title>→ NEXARIUM – NVO987 INSTITUTION LAYER</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://civilisation-layer.nvo987.fr/">
+        <dc:title>→ NEXARIUM – NVO987 CIVILISATION LAYER</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://startup-layer.nvo987.us/">
+        <dc:title>→ NEXARIUM – NVO987 STARTUP LAYER</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://kellycode.us/">
+        <dc:title>Kelly Code</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://images.nvo987.fr/">
+        <dc:title>Documentation visuelle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/nvo987.json">
+        <dc:title>JSON</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://did.ai.in/">
+        <dc:title>Inde | DID</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://web3.internet.in/">
+        <dc:title>Inde | WEB3</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.in/">
+        <dc:title>Inde</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.ai.in/">
+        <dc:title>Inde | Identity</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.ai.in/">
+        <dc:title>Inde | AI</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://paris.org.in/">
+        <dc:title>Inde | Paris</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://musees.nvo987.eu/">
+        <dc:title>Carte Culturelle | ISSN 3131-3272</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://unesco-fr.nvo987.eu/">
+        <dc:title>UNESCO France | ISSN 131-3213</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://peintres-fr.nvo987.eu/">
+        <dc:title>Peintres français</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://litterature-fr.nvo987.eu/">
+        <dc:title>Littérature française</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://www.social-exclusion-of-children.eu/">
+        <dc:title>Social Exclusion of Children | Campagne Internationale</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://childcolor.eu/">
+        <dc:title>ChildColor | Programme</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://culture.org.im/">
+        <dc:title>Les droits visuels des enfants</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://archives.nvo987.fr/">
+        <dc:title>Infrastructure d’archivage</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://startup.com.im/">
+        <dc:title>Startup culturelle à impact social</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://md.nvo987.fr/">
+        <dc:title>NVO987 | Markdown Page</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.eth.limo/">
+        <dc:title>Site Web Décentralisé</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://identity.nvo987.us/">
+        <dc:title>me</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nexarium.nvo987.fr/">
+        <dc:title>NEXARIUM | Revue trimestrielle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nexarium.us/">
+        <dc:title>→ NEXARIUM – Open Decentralized Web Infrastructure</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://valoriax.nvo987.fr/">
+        <dc:title>Valoriax</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://art.nvo987.us/">
+        <dc:title>Substack | ISSN 3131-3744</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/evenements.html">
+        <dc:title>Événements</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/contact.html">
+        <dc:title>Contact</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/engagements.html">
+        <dc:title>Nos engagements</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/mentions-legales.html">
+        <dc:title>Mentions légales</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/documents/NVO987_Association_Presentation_FR.pdf">
+        <dc:title>Présentation professionnelle et institutionnelle</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/nvo987.xml">
+        <dc:title>NVO987 RSS Feed</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/nvo987-atom.xml">
+        <dc:title>ATOM</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.substack.com/feed">
+        <dc:title>RSS | Substack</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://bsky.app/profile/did:plc:r3vfu3t4prpmm6nswgctlibz/rss">
+        <dc:title>RSS | Bluesky</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0DNeZ242z2HOYcDF7o-kg">
+        <dc:title>RSS | YouTube</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://nvo987.fr/orcid-0009-0007-4628-1871.xml">
+        <dc:title>RSS | ORCID</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso>
+      <foaf:Document rdf:about="https://rss.nvo987.us/">
+        <dc:title>NVO987 Research Feed</dc:title>
+      </foaf:Document>
+    </rdfs:seeAlso>
+  </foaf:Organization>
+
+</rdf:RDF>
